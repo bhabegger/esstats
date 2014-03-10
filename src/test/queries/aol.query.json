@@ -1,0 +1,24 @@
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match_all": {}
+        }
+      ],
+      "must_not": [],
+      "should": []
+    }
+  },
+  "from": 0,
+  "size": 50,
+  "sort": [],
+  "facets": {
+    "words": {
+      "terms": {
+        "field": "query",
+        "size": 10000
+      }
+    }
+  }
+}
