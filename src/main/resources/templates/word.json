@@ -1,0 +1,67 @@
+{
+    "query":{
+        "bool":{
+            "must":[
+                {
+                    "term":{
+                        "query.anonid":"\<body>"
+                    }
+                }
+            ],
+            "must_not":[],
+            "should":[]
+        }
+    },
+    "from":0,
+    "size":50,
+    "facets":{
+        "march":{
+            "terms":{
+                "field":"query.query",
+                "size":1000,
+                "regex": "<body>",
+                "order": "term"
+            },
+            "facet_filter":{
+                "range":{
+                        "time":{
+                            "from":"2006-03-01T00:00:00Z",
+                            "to":"2006-04-01T00:00:00Z"
+                        }
+                }
+            }
+        },
+        "april":{
+            "terms":{
+                "field":"query.query",
+                "size":1000,
+                "regex": "<body>",
+                "order": "term"
+            },
+            "facet_filter":{
+                "range":{
+                    "time":{
+                        "from":"2006-04-01T00:00:00Z",
+                        "to":"2006-05-01T00:00:00Z"
+                    }
+                }
+            }
+        },
+        "may":{
+            "terms":{
+                "field":"query.query",
+                "size":1000,
+                "regex": "<body>",
+                "order": "term"
+            },
+            "facet_filter":{
+                "range":{
+                    "time":{
+                        "from":"2006-05-01T00:00:00Z",
+                        "to":"2006-06-01T00:00:00Z"
+                    }
+                }
+            }
+        }
+    }
+}

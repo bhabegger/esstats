@@ -58,7 +58,11 @@
 			<version>${camel.version}</version>
 		</dependency>
   
-  
+  <dependency>
+  <groupId>org.apache.camel</groupId>
+  <artifactId>camel-script</artifactId>
+  <version>${camel.version}</version>
+</dependency>
 	<dependency>
 		<groupId>org.codehaus.jackson</groupId>
 		<artifactId>jackson-core-asl</artifactId>

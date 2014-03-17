@@ -17,7 +17,7 @@
     "words": {
       "terms": {
         "field": "query",
-        "size": 10000
+        "size": 100000
       }
     }
   }

@@ -3,6 +3,7 @@ package com.semsaas.esstats.app;
 import java.io.InputStream;
 import java.util.AbstractMap;
 import java.util.Comparator;
+import java.util.LinkedList;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.PriorityQueue;
@@ -34,14 +35,18 @@ public class EntropyCalcProcessor implements Processor {
 	    double totalDocs = searchResult.path("hits").path("total").asLong(0);
 	    
 	    JsonNode facetList = searchResult.path("facets").path("words").path("terms");
-	    
+
+	    // Use a PriorityQueue sorting on entropy value in decreasing order
 	    Comparator<Map.Entry<String,Double>> compare = new Comparator<Map.Entry<String,Double>>() {
 			@Override
 			public int compare(Entry<String,Double> o1, Entry<String,Double> o2) {
-				return -1 * Double.compare(o1.getValue(),o2.getValue());
+				int res = -1 * Double.compare(o1.getValue(),o2.getValue());
+				if(res == 0) {
+					res = o1.getKey().compareTo(o2.getKey());
+				}
+				return res;
 			}
 		};
-		
 	    PriorityQueue<Map.Entry<String,Double>> q = new PriorityQueue<Map.Entry<String,Double>>(facetList.size(),compare);
 	    for(int i=0; i<facetList.size(); i++) {
 	    	JsonNode termFacet = facetList.get(i);
@@ -54,17 +59,13 @@ public class EntropyCalcProcessor implements Processor {
 	    	q.add(new AbstractMap.SimpleEntry<String,Double>(term,termEntropy));
 	    }
 	    
-	    StringBuffer output = new StringBuffer();
+	    // Empty priority queue and build a linked list allowing to further 	    
+	    LinkedList<Map.Entry<String,Double>> termList = new LinkedList<Map.Entry<String,Double>>();
 	    for(Map.Entry<String,Double> entry = q.poll(); entry != null; entry = q.poll()) {
 	    	logger.info("H("+entry.getKey()+") = "+entry.getValue());
-	    	
-	    	output.append(entry.getKey());
-	    	output.append("\t");
-	    	output.append(entry.getValue());
-	    	output.append("\n");
-	    }
-	    
-	    in.setBody(output.toString());
+	    	termList.add(entry);
+	    }	    
+	    in.setBody(termList);
 	}
 
 }
