@@ -10,9 +10,13 @@ import java.util.Iterator;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import cern.colt.function.DoubleDoubleFunction;
+import cern.colt.matrix.DoubleMatrix1D;
+import cern.colt.matrix.DoubleMatrix2D;
+import cern.jet.math.Functions;
+
 public class Measures {
 	public static Logger logger = LoggerFactory.getLogger(Measures.class);
-	
 	
 	/**
 	 * Kullbach-Leibler divergence (@see http://en.wikipedia.org/wiki/Kullback%E2%80%93Leibler_divergence)
@@ -60,7 +64,7 @@ public class Measures {
 			Double q_i = q.get(feature); if(q_i == null) q_i = 0.0;
 			if(p_i != 0.0) {
 				if(q_i != 0.0) { 
-					sum += Math.log(p_i/q_i) * p_i;					
+					sum += Math.log(p_i/q_i) * p_i;
 				} else {
 					logger.warn("KulbachLieber: q["+i+"] was 0 when p["+i+"] was not");
 				}
@@ -77,6 +81,15 @@ public class Measures {
 		return sum;
 	}
 	
+	static DoubleDoubleFunction jsdComponent = new DoubleDoubleFunction() {
+		@Override
+		public double apply(double p_i, double q_i) {
+			Double m_i = 0.5 * (p_i + q_i);
+			return	((p_i != 0.0 && m_i != 0.0) ? Math.log(p_i/m_i) * p_i : 0.0)
+				+	((q_i != 0.0 && m_i != 0.0) ? Math.log(q_i/m_i) * q_i : 0.0);
+		}
+	};
+	
 	/**
 	 * Jensen-Shannon divergence (@see http://en.wikipedia.org/wiki/Jensen%E2%80%93Shannon_divergence)
 	 * @param p - Categorical probability distribution represented as an array of double values between 0.0 and 1.0
@@ -86,34 +99,40 @@ public class Measures {
 	public static double jsd(double[] p, double[] q) {
 		return JensenShannonDivergence(p, q);
 	}
+	
+	public static double jsd(DoubleMatrix1D p, DoubleMatrix1D q) {
+		return JensenShannonDivergence(p, q);
+	}
 	public static double JensenShannonDivergence(double[] p, double[] q) {
-			assert p.length == q.length;
-		double m[] = new double[p.length];
-		
+		assert p.length == q.length;
+	
+		double sum = 0.0;
 		for(int i=0;i<p.length; i++) {
-			m[i] = 0.5 * (p[i] + q[i]);
+			Double p_i = p[i];
+			Double q_i = q[i];
+			
+			sum +=	jsdComponent.apply(p_i, q_i);
 		}
 		
-		double jsd = 0.5 * KullbackLeiblerDivergence(p, m) + 0.5 * KullbackLeiblerDivergence(q, m);
-
-		return jsd;
+		return 0.5 * sum;
 	}
+	
 	public static double JensenShannonDivergence(String[] keys, Map<String,Double> p, Map<String,Double> q) {
 		Map<String,Double> m = new HashMap<String,Double>();
 	
-	for(int i=0;i<keys.length; i++) {
-		Double p_i = p.get(keys[i]); if(p_i == null) p_i = 0.0;
-		Double q_i = q.get(keys[i]); if(q_i == null) q_i = 0.0;
-		Double m_i = 0.5 * (p_i + q_i);
-		if(m_i != 0.0) {
-			m.put(keys[i], m_i);
+		double sum = 0.0;
+		for(int i=0;i<keys.length; i++) {
+			Double p_i = p.get(keys[i]); if(p_i == null) p_i = 0.0;
+			Double q_i = q.get(keys[i]); if(q_i == null) q_i = 0.0;
+			sum +=	jsdComponent.apply(p_i, q_i);
 		}
+		
+		return 0.5 * sum;
 	}
 	
-	double jsd = 0.5 * KullbackLeiblerDivergence(keys, p, m) + 0.5 * KullbackLeiblerDivergence(keys, q, m);
-
-	return jsd;
-}
+	public static double JensenShannonDivergence(DoubleMatrix1D p, DoubleMatrix1D q) {
+		return 0.5 * p.aggregate(q, Functions.plus, jsdComponent);
+	}
 	
 	/**
 	 * Distribution normalization function
@@ -127,6 +146,11 @@ public class Measures {
 			normalized[i] = d[i]/s;
 		}
 		return normalized;
+	}
+	
+	public static DoubleMatrix1D normalize(DoubleMatrix1D d) {
+		double sum = d.aggregate(Functions.plus, Functions.identity);
+		return d.assign(new NormalizationFunction(sum));
 	}
 
 	public static Map<String, Double> normalize(Map<String, Double> dist) {

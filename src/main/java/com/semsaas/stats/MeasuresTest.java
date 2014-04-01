@@ -5,6 +5,10 @@ import static com.semsaas.stats.Measures.*;
 
 import org.junit.Test;
 
+import cern.colt.matrix.DoubleFactory1D;
+import cern.colt.matrix.DoubleFactory2D;
+import cern.colt.matrix.DoubleMatrix1D;
+
 public class MeasuresTest {
 
 	@Test
@@ -59,4 +63,12 @@ public class MeasuresTest {
 		System.out.println("subdistrib: "+jsd);
 	}
 
+	@Test
+	public void coltJsd() {
+		DoubleMatrix1D p = DoubleFactory1D.dense.make(normalize(new double[]{ 10 , 5, 10, 20, 50, 20 }));
+		DoubleMatrix1D q = DoubleFactory1D.dense.make(normalize(new double[]{ 10 , 0, 10, 0, 50, 0 }));
+		double jsd = jsd(p,q);
+
+		System.out.println("colt: "+jsd);
+	}
 }

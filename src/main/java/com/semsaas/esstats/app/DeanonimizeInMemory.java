@@ -7,6 +7,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.AbstractMap;
 import java.util.AbstractMap.SimpleEntry;
+import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -17,9 +18,13 @@ import java.util.PriorityQueue;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import cern.colt.matrix.DoubleFactory2D;
+import cern.colt.matrix.DoubleMatrix1D;
+import cern.colt.matrix.DoubleMatrix2D;
+
 import com.semsaas.stats.Measures;
 
-public class Deanonimize {
+public class DeanonimizeInMemory {
     static Comparator<Map.Entry<String,Double>> compare = new Comparator<Map.Entry<String,Double>>() {
 		@Override
 		public int compare(Entry<String,Double> o1, Entry<String,Double> o2) {
@@ -27,18 +32,46 @@ public class Deanonimize {
 		}
 	};
 	
-	static Logger logger = LoggerFactory.getLogger(Deanonimize.class); 
+	static Logger logger = LoggerFactory.getLogger(DeanonimizeInMemory.class); 
 	public static void main(String[] args) {
 		File sourceDist = new File(args[0]);
 		File testDist   = new File(args[1]);
-		
-		logger.info("Deanonimizing target="+testDist.getAbsolutePath()+" using source="+sourceDist.getAbsolutePath());
-		
-		// For each entry in the testDist file search for the closest distribution in the sourceDist file
+
+
+		logger.info("Loading source="+sourceDist.getAbsolutePath());
+		ArrayList<Map.Entry<String,Map<String,Double>>> sDistList = new ArrayList<>();
+		try {
+			BufferedReader sReader = new BufferedReader(new FileReader(sourceDist));
+			String sLine = sReader.readLine();
+			while(sLine != null) {
+				Map.Entry<String,Map<String,Double>> sDist = loadDist(sLine);
+				sDist.setValue(Measures.normalize(sDist.getValue()));
+				sDistList.add(sDist);
+				sLine = sReader.readLine();
+			}
+			sReader.close();
+		} catch(IOException e) {
+			e.printStackTrace();
+		}
+
+		logger.info("Loading target="+testDist.getAbsolutePath());
+		ArrayList<Map.Entry<String,Map<String,Double>>> tDistList = new ArrayList<>();
 		try {
 			BufferedReader tReader = new BufferedReader(new FileReader(testDist));
 			String tLine = tReader.readLine();
-			
+			while(tLine != null) {
+				Map.Entry<String,Map<String,Double>> tDist = loadDist(tLine);
+				tDist.setValue(Measures.normalize(tDist.getValue()));
+				tDistList.add(tDist);
+				tLine = tReader.readLine();
+			}
+			tReader.close();
+		} catch(IOException e) {
+			e.printStackTrace();
+		}
+		logger.info("Deanonimizing target="+testDist.getAbsolutePath()+" using source="+sourceDist.getAbsolutePath());
+
+		// For each entry in the testDist file search for the closest distribution in the sourceDist file
 			int[] matches = new int[3];
 			for(int i=0;i<matches.length;i++) {
 				matches[i] = 0;
@@ -46,16 +79,14 @@ public class Deanonimize {
 			int total = 0;
 			int totalPresent = 0;
 			
-			while(tLine != null) {
-				Map.Entry<String,Map<String,Double>> tDist = loadDist(tLine);
+			for(int i=0; i<tDistList.size(); i++) {
+				Map.Entry<String,Map<String,Double>> tDist = tDistList.get(i);
+				logger.info("Deanonimizing "+tDist.getKey());
 				if(tDist.getValue().size() > 0) {
 					PriorityQueue<Map.Entry<String, Double>> bestMatches = new PriorityQueue<Map.Entry<String, Double>>(matches.length,compare);
 					double selfJSD = -1;
 	
-					BufferedReader sReader = new BufferedReader(new FileReader(sourceDist));
-					String sLine = sReader.readLine();
-					while(sLine != null) {
-						Map.Entry<String,Map<String,Double>> sDist = loadDist(sLine);
+					for(Map.Entry<String,Map<String,Double>> sDist: sDistList) {
 						if(sDist.getValue().size() > 0) {
 							HashSet<String> keySet = new HashSet<>();
 							keySet.addAll(tDist.getValue().keySet());
@@ -63,7 +94,7 @@ public class Deanonimize {
 							
 							String[] keys = new String[keySet.size()];
 							keys = keySet.toArray(keys);
-							double jsd = Measures.JensenShannonDivergence(keys, Measures.normalize(sDist.getValue()), Measures.normalize(tDist.getValue()));
+							double jsd = Measures.JensenShannonDivergence(keys,sDist.getValue(), tDist.getValue());
 
 							// logger.info("JSD(target:"+tDist.getKey()+",source:"+sDist.getKey()+") = "+jsd);
 							bestMatches.add(new AbstractMap.SimpleEntry<String, Double>(sDist.getKey(),jsd));
@@ -76,7 +107,6 @@ public class Deanonimize {
 								selfJSD = jsd;
 							}
 						}
-						sLine = sReader.readLine();
 					}
 					
 					logger.info("*** "+tDist.getKey()+"*** self JSD: "+selfJSD);
@@ -94,9 +124,7 @@ public class Deanonimize {
 					if(selfJSD >= 0.0) {
 						totalPresent++;
 					}
-					sReader.close();
 				}
-				tLine = tReader.readLine();
 			}
 			
 			int found = 0;
@@ -106,10 +134,6 @@ public class Deanonimize {
 				logger.info("Correct matches within first "+(i+1)+" entries: "+found+"/"+totalPresent+" = "+(((double)found)/totalPresent));
 			
 			}
-			tReader.close();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
 	}
 	
 	private static Entry<String, Map<String, Double>> loadDist(String line) {
