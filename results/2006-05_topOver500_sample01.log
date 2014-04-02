@@ -1,0 +1,1339 @@
+10:06:58,500 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Loading source=/home/benjamin/Datasets/aol/2006-03.csv
+10:07:19,942 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Loading target=/home/benjamin/Datasets/aol/2006-05_topOver500_sample01.csv
+10:07:20,091 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing target=/home/benjamin/Datasets/aol/2006-05_topOver500_sample01.csv using source=/home/benjamin/Datasets/aol/2006-03.csv
+10:07:20,091 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 761302
+10:07:48,533 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 761302*** self JSD: 0.5559835638651841
+10:07:48,533 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:761302 -> source:1632983 (0.5123757023694965)
+10:07:48,533 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:761302 -> source:1007644 (0.5109522981418303)
+10:07:48,533 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:761302 -> source:1931315 (0.5086060698740152)
+10:07:48,534 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 1259280
+10:07:54,936 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 1259280*** self JSD: 0.552724478232373
+10:07:54,936 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]* target:1259280 -> source:1259280 (0.552724478232373)
+10:07:54,937 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:1259280 -> source:18687670 (0.5445083143245028)
+10:07:54,937 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:1259280 -> source:17376406 (0.5222230118638592)
+10:07:54,937 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 4907676
+10:08:12,758 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 4907676*** self JSD: 0.5250187844209301
+10:08:12,758 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:4907676 -> source:12377780 (0.4888634733947511)
+10:08:12,758 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:4907676 -> source:17969008 (0.4888634733947505)
+10:08:12,758 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:4907676 -> source:14699393 (0.46658861169107085)
+10:08:12,759 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 1450604
+10:08:39,036 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 1450604*** self JSD: 0.560656214454888
+10:08:39,036 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:1450604 -> source:4879801 (0.5446717975686819)
+10:08:39,036 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:1450604 -> source:3122673 (0.5413351476126455)
+10:08:39,036 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:1450604 -> source:236695 (0.5344196963488823)
+10:08:39,036 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 972173
+10:09:03,227 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 972173*** self JSD: 0.5004318333069194
+10:09:03,228 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:972173 -> source:12833987 (0.5381487940903439)
+10:09:03,228 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:972173 -> source:6970097 (0.5307754060400695)
+10:09:03,228 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:972173 -> source:972173 (0.5004318333069194)
+10:09:03,228 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 692326
+10:09:09,800 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 692326*** self JSD: 0.67373080266677
+10:09:09,801 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:692326 -> source:18827111 (0.4440496488238952)
+10:09:09,801 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:692326 -> source:2278245 (0.41225737732818546)
+10:09:09,801 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:692326 -> source:11789930 (0.41225737732818524)
+10:09:09,801 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 2222714
+10:09:27,274 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 2222714*** self JSD: 0.45992655947395694
+10:09:27,274 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:2222714 -> source:8521625 (0.49870146629293466)
+10:09:27,274 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:2222714 -> source:13595068 (0.49870146629293466)
+10:09:27,275 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:2222714 -> source:2222714 (0.45992655947395694)
+10:09:27,275 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 13362448
+10:09:47,976 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 13362448*** self JSD: 0.33780149462471504
+10:09:47,976 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:13362448 -> source:17016710 (0.43079017624318405)
+10:09:47,976 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:13362448 -> source:3211280 (0.43079017624318405)
+10:09:47,976 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:13362448 -> source:13362448 (0.33780149462471504)
+10:09:47,976 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 860899
+10:09:57,760 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 860899*** self JSD: 0.52175617342993
+10:09:57,760 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:860899 -> source:17760341 (0.5731756334797566)
+10:09:57,760 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:860899 -> source:15192690 (0.5547691024594603)
+10:09:57,760 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:860899 -> source:860899 (0.52175617342993)
+10:09:57,760 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 57424
+10:10:24,309 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 57424*** self JSD: 0.4436105428341548
+10:10:24,309 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:57424 -> source:2272405 (0.4928068686492994)
+10:10:24,310 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:57424 -> source:683715 (0.4867118501831164)
+10:10:24,310 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:57424 -> source:57424 (0.4436105428341548)
+10:10:24,310 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 3034568
+10:11:03,094 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 3034568*** self JSD: 0.5557617976521546
+10:11:03,095 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:3034568 -> source:1926535 (0.576280862173046)
+10:11:03,095 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:3034568 -> source:3614835 (0.5653926373079786)
+10:11:03,095 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:3034568 -> source:3034568 (0.5557617976521546)
+10:11:03,095 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 3352824
+10:11:30,299 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 3352824*** self JSD: 0.4956760057297827
+10:11:30,300 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:3352824 -> source:997909 (0.5321336604786897)
+10:11:30,300 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:3352824 -> source:731796 (0.5292636220503365)
+10:11:30,300 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:3352824 -> source:3352824 (0.4956760057297827)
+10:11:30,300 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 7233005
+10:11:42,799 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 7233005*** self JSD: 0.5126266954791161
+10:11:42,799 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:7233005 -> source:1700673 (0.5028645673413308)
+10:11:42,799 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:7233005 -> source:2939971 (0.5024978674499201)
+10:11:42,799 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:7233005 -> source:514475 (0.49206264225569296)
+10:11:42,799 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 3382388
+10:11:53,357 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 3382388*** self JSD: 0.35091367828048053
+10:11:53,357 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:3382388 -> source:16440226 (0.32867145109983087)
+10:11:53,357 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:3382388 -> source:8651521 (0.32867145109983087)
+10:11:53,357 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:3382388 -> source:15352746 (0.32867145109983087)
+10:11:53,357 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 1695347
+10:12:20,905 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 1695347*** self JSD: 0.5621973396337736
+10:12:20,905 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:1695347 -> source:8156401 (0.5445638845388516)
+10:12:20,905 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:1695347 -> source:16975786 (0.5375209284545328)
+10:12:20,905 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:1695347 -> source:2710498 (0.532782530978844)
+10:12:20,905 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 2630631
+10:12:39,637 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 2630631*** self JSD: 0.4621154170415328
+10:12:39,637 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:2630631 -> source:2522093 (0.5702816172435831)
+10:12:39,637 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:2630631 -> source:5464369 (0.5680246043244707)
+10:12:39,638 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:2630631 -> source:2630631 (0.4621154170415328)
+10:12:39,638 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 4546084
+10:12:59,006 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 4546084*** self JSD: 0.6180994333296912
+10:12:59,006 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:4546084 -> source:763570 (0.5789630122915461)
+10:12:59,006 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:4546084 -> source:16079620 (0.5783856189294212)
+10:12:59,007 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:4546084 -> source:484911 (0.5701537569518198)
+10:12:59,007 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 8973244
+10:13:13,772 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 8973244*** self JSD: 0.6270704081798765
+10:13:13,772 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:8973244 -> source:9075943 (0.49207238539165876)
+10:13:13,772 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:8973244 -> source:16574677 (0.4791043487741614)
+10:13:13,772 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:8973244 -> source:15983182 (0.43520655445130907)
+10:13:13,773 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 497336
+10:13:21,132 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 497336*** self JSD: 0.2501735254439197
+10:13:21,132 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:497336 -> source:18025242 (0.5175375835031815)
+10:13:21,132 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:497336 -> source:15822958 (0.49485607108877705)
+10:13:21,132 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:497336 -> source:497336 (0.2501735254439197)
+10:13:21,133 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 2422330
+10:13:46,972 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 2422330*** self JSD: 0.4048128935132107
+10:13:46,973 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:2422330 -> source:881500 (0.537618767119642)
+10:13:46,973 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:2422330 -> source:1337671 (0.535095755506436)
+10:13:46,973 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:2422330 -> source:2422330 (0.4048128935132107)
+10:13:46,973 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 1294923
+10:14:10,535 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 1294923*** self JSD: 0.5142429158799563
+10:14:10,535 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:1294923 -> source:3540871 (0.5170496763300145)
+10:14:10,535 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]* target:1294923 -> source:1294923 (0.5142429158799563)
+10:14:10,535 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:1294923 -> source:2581045 (0.5102985775884007)
+10:14:10,536 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 2854952
+10:14:34,886 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 2854952*** self JSD: 0.4608544877879137
+10:14:34,886 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:2854952 -> source:1337671 (0.5088226871403209)
+10:14:34,886 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:2854952 -> source:13975914 (0.49717626244185587)
+10:14:34,886 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:2854952 -> source:2854952 (0.4608544877879137)
+10:14:34,886 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 1783194
+10:14:50,516 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 1783194*** self JSD: 0.49474505491230486
+10:14:50,516 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:1783194 -> source:16508857 (0.5873489456127775)
+10:14:50,516 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:1783194 -> source:18346048 (0.5854341465532422)
+10:14:50,516 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:1783194 -> source:1783194 (0.49474505491230486)
+10:14:50,516 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 2596456
+10:14:55,566 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 2596456*** self JSD: 0.4753157760974635
+10:14:55,566 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]* target:2596456 -> source:2596456 (0.4753157760974635)
+10:14:55,566 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:2596456 -> source:14111720 (0.44149973613503257)
+10:14:55,566 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:2596456 -> source:14329703 (0.44149973613503257)
+10:14:55,566 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 23008061
+10:15:19,265 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 23008061*** self JSD: -1.0
+10:15:19,265 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:23008061 -> source:15803183 (0.5159222175735012)
+10:15:19,265 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:23008061 -> source:10600033 (0.5159222175735012)
+10:15:19,265 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:23008061 -> source:17489397 (0.4966486054315252)
+10:15:19,265 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 2078212
+10:15:39,242 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 2078212*** self JSD: 0.5407715534795005
+10:15:39,242 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:2078212 -> source:1360175 (0.5634009907402225)
+10:15:39,242 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:2078212 -> source:7279598 (0.550148395167659)
+10:15:39,243 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:2078212 -> source:2078212 (0.5407715534795005)
+10:15:39,243 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 4583231
+10:16:12,159 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 4583231*** self JSD: 0.5670510242995181
+10:16:12,159 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:4583231 -> source:186465 (0.49553295614312)
+10:16:12,160 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:4583231 -> source:8766358 (0.49431673350109606)
+10:16:12,160 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:4583231 -> source:375434 (0.4922499740238615)
+10:16:12,160 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 422471
+10:17:00,407 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 422471*** self JSD: 0.45484571348253067
+10:17:00,408 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:422471 -> source:9331525 (0.5294159769509655)
+10:17:00,408 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:422471 -> source:2263543 (0.5222969789142173)
+10:17:00,408 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:422471 -> source:422471 (0.45484571348253067)
+10:17:00,408 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 21752506
+10:17:06,441 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 21752506*** self JSD: -1.0
+10:17:06,441 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:21752506 -> source:13600078 (0.40877942035477166)
+10:17:06,441 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:21752506 -> source:17237120 (0.3740616689663099)
+10:17:06,441 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:21752506 -> source:14923197 (0.36038187595817384)
+10:17:06,441 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 5512932
+10:17:24,091 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 5512932*** self JSD: 0.6380557011733553
+10:17:24,091 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:5512932 -> source:4879801 (0.5583793518571436)
+10:17:24,091 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:5512932 -> source:1100880 (0.5553924885833331)
+10:17:24,091 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:5512932 -> source:731796 (0.5292698379891767)
+10:17:24,091 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 356693
+10:17:45,200 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 356693*** self JSD: 0.45820791143008993
+10:17:45,200 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:356693 -> source:235307 (0.5288536391907059)
+10:17:45,200 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:356693 -> source:5504956 (0.5282525224563279)
+10:17:45,200 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:356693 -> source:356693 (0.45820791143008993)
+10:17:45,200 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 2951238
+10:18:13,333 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 2951238*** self JSD: 0.4956370318574506
+10:18:13,333 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:2951238 -> source:1582981 (0.5490810505976643)
+10:18:13,333 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:2951238 -> source:792334 (0.5480158777256434)
+10:18:13,333 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:2951238 -> source:2951238 (0.4956370318574506)
+10:18:13,333 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 22859595
+10:18:28,235 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 22859595*** self JSD: -1.0
+10:18:28,235 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:22859595 -> source:1500585 (0.49607927374683547)
+10:18:28,235 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:22859595 -> source:4170119 (0.486381338434853)
+10:18:28,235 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:22859595 -> source:16994714 (0.4536954740524728)
+10:18:28,235 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 3222374
+10:18:43,513 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 3222374*** self JSD: 0.5739646690448367
+10:18:43,513 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:3222374 -> source:12601430 (0.5362291724361742)
+10:18:43,513 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:3222374 -> source:6362843 (0.5273319321599426)
+10:18:43,514 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:3222374 -> source:17978631 (0.5273319321599426)
+10:18:43,514 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 565143
+10:19:05,067 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 565143*** self JSD: 0.5715090840359301
+10:19:05,067 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:565143 -> source:186465 (0.5317345471372623)
+10:19:05,068 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:565143 -> source:8274788 (0.525816968184566)
+10:19:05,068 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:565143 -> source:1216544 (0.5249057154311991)
+10:19:05,068 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 2953663
+10:19:14,191 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 2953663*** self JSD: 0.415703270279628
+10:19:14,191 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:2953663 -> source:15561294 (0.4020039856906233)
+10:19:14,191 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:2953663 -> source:15293744 (0.4020039856906233)
+10:19:14,191 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:2953663 -> source:10690163 (0.3963078045323583)
+10:19:14,191 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 679436
+10:19:45,442 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 679436*** self JSD: 0.3351754323903714
+10:19:45,443 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:679436 -> source:17539087 (0.5089079088615646)
+10:19:45,443 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:679436 -> source:11436978 (0.4998252010342178)
+10:19:45,443 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:679436 -> source:679436 (0.3351754323903714)
+10:19:45,443 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 190827
+10:19:58,012 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 190827*** self JSD: 0.5310308826865838
+10:19:58,013 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:190827 -> source:5391022 (0.4946281706605827)
+10:19:58,013 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:190827 -> source:17101517 (0.4912041877676321)
+10:19:58,013 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:190827 -> source:18557788 (0.4793671784298154)
+10:19:58,013 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 17443104
+10:20:29,990 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 17443104*** self JSD: 0.5637491737919766
+10:20:29,991 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:17443104 -> source:8730137 (0.4901020378318458)
+10:20:29,991 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:17443104 -> source:9000782 (0.47637268702558316)
+10:20:29,991 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:17443104 -> source:11796331 (0.47418751806307624)
+10:20:29,991 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 1377866
+10:21:00,972 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 1377866*** self JSD: 0.5711322679534899
+10:21:00,972 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:1377866 -> source:2677501 (0.6024623341717358)
+10:21:00,972 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:1377866 -> source:1866241 (0.599371551209573)
+10:21:00,972 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:1377866 -> source:1377866 (0.5711322679534899)
+10:21:00,972 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 3130046
+10:21:24,122 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 3130046*** self JSD: 0.4779767110185296
+10:21:24,122 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:3130046 -> source:6387026 (0.5160317082773406)
+10:21:24,122 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:3130046 -> source:3030900 (0.5022615010861371)
+10:21:24,122 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:3130046 -> source:3130046 (0.4779767110185296)
+10:21:24,123 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 2024353
+10:21:43,457 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 2024353*** self JSD: 0.5249868926466226
+10:21:43,458 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:2024353 -> source:4984043 (0.5200414967851315)
+10:21:43,458 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:2024353 -> source:10697644 (0.5147349413648136)
+10:21:43,458 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:2024353 -> source:1946601 (0.5135531348652508)
+10:21:43,458 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 2027268
+10:22:10,744 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 2027268*** self JSD: 0.4071820371179232
+10:22:10,744 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:2027268 -> source:3596080 (0.4805315103763511)
+10:22:10,744 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:2027268 -> source:438700 (0.4773826332010913)
+10:22:10,744 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:2027268 -> source:2027268 (0.4071820371179232)
+10:22:10,744 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 22116658
+10:22:20,401 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 22116658*** self JSD: -1.0
+10:22:20,401 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:22116658 -> source:2818957 (0.5716275471526947)
+10:22:20,402 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:22116658 -> source:13282865 (0.5695207286016443)
+10:22:20,402 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:22116658 -> source:17179445 (0.5686825945200148)
+10:22:20,402 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 22724486
+10:22:38,920 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 22724486*** self JSD: -1.0
+10:22:38,920 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:22724486 -> source:8951505 (0.5607964821728305)
+10:22:38,920 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:22724486 -> source:4617023 (0.5576676719751812)
+10:22:38,920 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:22724486 -> source:18112818 (0.5510688896092986)
+10:22:38,921 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 2101309
+10:22:53,318 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 2101309*** self JSD: 0.5921612119239438
+10:22:53,319 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:2101309 -> source:13975914 (0.5428051738893639)
+10:22:53,319 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:2101309 -> source:5764272 (0.5390777516847589)
+10:22:53,319 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:2101309 -> source:2146755 (0.5353290872207092)
+10:22:53,319 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 983921
+10:23:05,018 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 983921*** self JSD: 0.5475262518303249
+10:23:05,018 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:983921 -> source:6368777 (0.5632477711656165)
+10:23:05,019 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:983921 -> source:2082950 (0.5619213069074682)
+10:23:05,019 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:983921 -> source:983921 (0.5475262518303249)
+10:23:05,019 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 22742307
+10:23:21,735 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 22742307*** self JSD: -1.0
+10:23:21,735 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:22742307 -> source:18680940 (0.5523093623399178)
+10:23:21,735 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:22742307 -> source:18530633 (0.5459186956182223)
+10:23:21,735 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:22742307 -> source:2826545 (0.543190718953146)
+10:23:21,735 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 2437970
+10:23:36,547 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 2437970*** self JSD: 0.3979180472358832
+10:23:36,547 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:2437970 -> source:3599710 (0.5369388408978658)
+10:23:36,547 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:2437970 -> source:8093427 (0.50803398865976)
+10:23:36,548 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:2437970 -> source:2437970 (0.3979180472358832)
+10:23:36,548 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 12526263
+10:23:42,257 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 12526263*** self JSD: 0.5104715973409993
+10:23:42,257 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:12526263 -> source:11383291 (0.4164070279411049)
+10:23:42,257 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:12526263 -> source:16643133 (0.4164070279411049)
+10:23:42,257 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:12526263 -> source:14277000 (0.4164070279411049)
+10:23:42,257 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 22661144
+10:24:07,503 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 22661144*** self JSD: -1.0
+10:24:07,503 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:22661144 -> source:306953 (0.5137124979562475)
+10:24:07,503 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:22661144 -> source:5323366 (0.5106539218550794)
+10:24:07,503 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:22661144 -> source:2359167 (0.479736611753924)
+10:24:07,504 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 22697704
+10:24:22,316 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 22697704*** self JSD: -1.0
+10:24:22,316 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:22697704 -> source:426204 (0.5925410237902752)
+10:24:22,316 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:22697704 -> source:4258768 (0.5895597115927708)
+10:24:22,316 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:22697704 -> source:2061454 (0.5734400763763389)
+10:24:22,317 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 3011333
+10:24:40,785 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 3011333*** self JSD: 0.5011656738615788
+10:24:40,785 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:3011333 -> source:924866 (0.5642322462565661)
+10:24:40,785 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:3011333 -> source:974621 (0.5601786277245742)
+10:24:40,785 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:3011333 -> source:3011333 (0.5011656738615788)
+10:24:40,786 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 1311782
+10:25:03,399 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 1311782*** self JSD: 0.4886449743590364
+10:25:03,399 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:1311782 -> source:1550424 (0.501196994053488)
+10:25:03,400 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:1311782 -> source:4948505 (0.49950623468032895)
+10:25:03,400 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:1311782 -> source:1311782 (0.4886449743590364)
+10:25:03,400 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 1926535
+10:25:42,726 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 1926535*** self JSD: 0.40943420190443847
+10:25:42,726 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:1926535 -> source:1568787 (0.5292448893452271)
+10:25:42,726 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:1926535 -> source:1477145 (0.5212884921875265)
+10:25:42,726 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:1926535 -> source:1926535 (0.40943420190443847)
+10:25:42,727 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 5009041
+10:25:51,264 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 5009041*** self JSD: 0.5486057534280201
+10:25:51,264 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:5009041 -> source:1986030 (0.5496385081541775)
+10:25:51,264 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]* target:5009041 -> source:5009041 (0.5486057534280201)
+10:25:51,264 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:5009041 -> source:5869953 (0.53630983843346)
+10:25:51,264 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 6839486
+10:26:19,254 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 6839486*** self JSD: 0.5825130467170725
+10:26:19,254 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:6839486 -> source:1195872 (0.5899463947749952)
+10:26:19,254 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:6839486 -> source:3006162 (0.5859278485402744)
+10:26:19,255 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:6839486 -> source:6839486 (0.5825130467170725)
+10:26:19,255 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 7100520
+10:26:39,853 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 7100520*** self JSD: 0.6276890346212914
+10:26:39,853 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:7100520 -> source:5221461 (0.6041897426584206)
+10:26:39,853 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:7100520 -> source:4952231 (0.603131200001024)
+10:26:39,853 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:7100520 -> source:15001296 (0.5712154014069456)
+10:26:39,854 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 1960500
+10:27:02,886 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 1960500*** self JSD: 0.4583233535567966
+10:27:02,886 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:1960500 -> source:2830237 (0.4594468399867445)
+10:27:02,886 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]* target:1960500 -> source:1960500 (0.4583233535567966)
+10:27:02,886 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:1960500 -> source:1700673 (0.4562666201564175)
+10:27:02,886 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 3886880
+10:27:24,246 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 3886880*** self JSD: 0.6009326842349254
+10:27:24,246 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:3886880 -> source:3463490 (0.5474913779368424)
+10:27:24,246 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:3886880 -> source:2091034 (0.5429237727581704)
+10:27:24,246 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:3886880 -> source:920444 (0.5426533037297606)
+10:27:24,247 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 2701270
+10:27:36,381 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 2701270*** self JSD: 0.3711378368833552
+10:27:36,381 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:2701270 -> source:3485170 (0.5004738445091843)
+10:27:36,382 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:2701270 -> source:5968343 (0.42166685212538285)
+10:27:36,382 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:2701270 -> source:2701270 (0.3711378368833552)
+10:27:36,382 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 1909833
+10:28:11,243 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 1909833*** self JSD: 0.6027140505176158
+10:28:11,243 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:1909833 -> source:3473674 (0.5714513480036363)
+10:28:11,243 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:1909833 -> source:9896531 (0.5705837208851317)
+10:28:11,243 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:1909833 -> source:3097020 (0.5664406911771613)
+10:28:11,243 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 1173478
+10:28:39,749 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 1173478*** self JSD: 0.5413292871707794
+10:28:39,749 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:1173478 -> source:578773 (0.5735210144763129)
+10:28:39,749 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:1173478 -> source:2990058 (0.5722689638119342)
+10:28:39,749 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:1173478 -> source:1173478 (0.5413292871707794)
+10:28:39,749 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 798177
+10:29:05,089 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 798177*** self JSD: 0.4767849133915785
+10:29:05,089 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:798177 -> source:3473674 (0.548037457869167)
+10:29:05,089 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:798177 -> source:16282392 (0.5312763453803874)
+10:29:05,089 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:798177 -> source:798177 (0.4767849133915785)
+10:29:05,090 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 14724059
+10:29:14,764 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 14724059*** self JSD: 0.18549016331233456
+10:29:14,764 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:14724059 -> source:17284756 (0.4585419795910645)
+10:29:14,764 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:14724059 -> source:15892229 (0.2038610833183324)
+10:29:14,764 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:14724059 -> source:14724059 (0.18549016331233456)
+10:29:14,765 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 130832
+10:29:57,543 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 130832*** self JSD: 0.49087362665608325
+10:29:57,543 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:130832 -> source:5391022 (0.5137699203233175)
+10:29:57,544 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:130832 -> source:1702712 (0.5126098673484656)
+10:29:57,544 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:130832 -> source:130832 (0.49087362665608325)
+10:29:57,544 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 1737865
+10:30:34,233 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 1737865*** self JSD: 0.5545340643286838
+10:30:34,233 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:1737865 -> source:1372907 (0.5722679416187766)
+10:30:34,234 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:1737865 -> source:917673 (0.5597047220110092)
+10:30:34,234 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:1737865 -> source:1737865 (0.5545340643286838)
+10:30:34,234 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 3970123
+10:30:55,466 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 3970123*** self JSD: 0.41423555660485095
+10:30:55,466 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:3970123 -> source:711391 (0.5043244342871591)
+10:30:55,466 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:3970123 -> source:1337671 (0.49749769737023286)
+10:30:55,466 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:3970123 -> source:3970123 (0.41423555660485095)
+10:30:55,466 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 239551
+10:31:20,706 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 239551*** self JSD: 0.6101805397898382
+10:31:20,706 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:239551 -> source:1382398 (0.615013760416326)
+10:31:20,706 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:239551 -> source:2438944 (0.6136974761862607)
+10:31:20,706 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:239551 -> source:239551 (0.6101805397898382)
+10:31:20,706 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 3107438
+10:31:30,878 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 3107438*** self JSD: 0.318878977946773
+10:31:30,878 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:3107438 -> source:6807661 (0.5136254446304485)
+10:31:30,878 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:3107438 -> source:513934 (0.5031238672738285)
+10:31:30,878 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:3107438 -> source:3107438 (0.318878977946773)
+10:31:30,878 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 1819549
+10:31:49,829 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 1819549*** self JSD: 0.622358424269781
+10:31:49,830 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:1819549 -> source:15803183 (0.4952438815273329)
+10:31:49,830 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:1819549 -> source:10600033 (0.4952438815273329)
+10:31:49,830 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:1819549 -> source:6694577 (0.4952438815273329)
+10:31:49,830 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 17872107
+10:32:08,727 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 17872107*** self JSD: 0.5323503431076824
+10:32:08,727 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:17872107 -> source:1383779 (0.556666447002005)
+10:32:08,727 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:17872107 -> source:1524775 (0.5479591873226052)
+10:32:08,728 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:17872107 -> source:17872107 (0.5323503431076824)
+10:32:08,728 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 1063419
+10:32:16,507 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 1063419*** self JSD: 0.4874313412363275
+10:32:16,507 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:1063419 -> source:8411234 (0.45517186198350745)
+10:32:16,507 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:1063419 -> source:17413776 (0.45517186198350745)
+10:32:16,508 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:1063419 -> source:13844374 (0.45517186198350745)
+10:32:16,508 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 1349709
+10:32:24,355 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 1349709*** self JSD: 0.6297255223071961
+10:32:24,355 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:1349709 -> source:15029573 (0.44230312070363464)
+10:32:24,355 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:1349709 -> source:13305371 (0.44230312070363464)
+10:32:24,355 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:1349709 -> source:10120456 (0.44230312070363464)
+10:32:24,355 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 12978249
+10:32:40,284 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 12978249*** self JSD: 0.41351591482131045
+10:32:40,284 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:12978249 -> source:62976 (0.5288575771998731)
+10:32:40,284 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:12978249 -> source:11664931 (0.5147574996020021)
+10:32:40,284 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:12978249 -> source:12978249 (0.41351591482131045)
+10:32:40,284 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 128662
+10:33:07,827 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 128662*** self JSD: 0.5867186575525506
+10:33:07,827 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]* target:128662 -> source:128662 (0.5867186575525506)
+10:33:07,827 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:128662 -> source:725209 (0.5819354694200904)
+10:33:07,828 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:128662 -> source:446022 (0.5807695133666979)
+10:33:07,828 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 19595334
+10:33:29,438 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 19595334*** self JSD: -1.0
+10:33:29,438 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:19595334 -> source:7360865 (0.4956127667359304)
+10:33:29,439 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:19595334 -> source:7448034 (0.4935729395876396)
+10:33:29,439 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:19595334 -> source:12476582 (0.47623307392845393)
+10:33:29,439 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 18208581
+10:33:40,867 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 18208581*** self JSD: 0.6220528267091011
+10:33:40,868 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:18208581 -> source:4899221 (0.5784221130571372)
+10:33:40,868 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:18208581 -> source:2390447 (0.5696895386756088)
+10:33:40,868 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:18208581 -> source:12522893 (0.5656277342434883)
+10:33:40,868 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 6863254
+10:33:52,430 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 6863254*** self JSD: 0.6518362740820319
+10:33:52,430 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:6863254 -> source:13447810 (0.5381372539793537)
+10:33:52,431 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:6863254 -> source:7726203 (0.5307936989347193)
+10:33:52,431 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:6863254 -> source:3607428 (0.5222398407498613)
+10:33:52,431 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 22984027
+10:34:09,912 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 22984027*** self JSD: -1.0
+10:34:09,912 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:22984027 -> source:18884520 (0.5742384442573526)
+10:34:09,912 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:22984027 -> source:6241515 (0.5686219795690773)
+10:34:09,912 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:22984027 -> source:10509263 (0.5602285137893088)
+10:34:09,912 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 756675
+10:34:20,469 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 756675*** self JSD: 0.6280115149381481
+10:34:20,469 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:756675 -> source:2284792 (0.59170875554999)
+10:34:20,470 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:756675 -> source:5448785 (0.5857296163314157)
+10:34:20,470 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:756675 -> source:10758963 (0.5834062644641616)
+10:34:20,470 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 1689189
+10:34:47,151 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 1689189*** self JSD: 0.40144731159253194
+10:34:47,151 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:1689189 -> source:2020847 (0.5609060163699168)
+10:34:47,151 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:1689189 -> source:1878857 (0.5557461751881541)
+10:34:47,152 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:1689189 -> source:1689189 (0.40144731159253194)
+10:34:47,152 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 3483185
+10:35:08,273 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 3483185*** self JSD: 0.4567817842636898
+10:35:08,273 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:3483185 -> source:10489144 (0.5550687147340048)
+10:35:08,273 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:3483185 -> source:7870464 (0.5480523585946795)
+10:35:08,273 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:3483185 -> source:3483185 (0.4567817842636898)
+10:35:08,273 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 1217662
+10:35:25,840 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 1217662*** self JSD: 0.5425571348724838
+10:35:25,840 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:1217662 -> source:1279474 (0.560518051914342)
+10:35:25,841 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:1217662 -> source:16319888 (0.5546983877879132)
+10:35:25,841 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:1217662 -> source:1217662 (0.5425571348724838)
+10:35:25,841 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 1697150
+10:35:41,702 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 1697150*** self JSD: 0.396546135846393
+10:35:41,702 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:1697150 -> source:14708966 (0.4782983749182233)
+10:35:41,702 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:1697150 -> source:7621265 (0.4779832918993161)
+10:35:41,702 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:1697150 -> source:1697150 (0.396546135846393)
+10:35:41,702 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 2064423
+10:35:56,050 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 2064423*** self JSD: 0.4696682607853287
+10:35:56,050 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:2064423 -> source:16263724 (0.5029987948442709)
+10:35:56,050 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]* target:2064423 -> source:2064423 (0.4696682607853287)
+10:35:56,050 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:2064423 -> source:15926536 (0.4501079326428134)
+10:35:56,050 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 1927332
+10:36:33,431 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 1927332*** self JSD: 0.31594881413887826
+10:36:33,431 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:1927332 -> source:1687531 (0.4605180361337624)
+10:36:33,431 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:1927332 -> source:236695 (0.4552432028771322)
+10:36:33,431 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:1927332 -> source:1927332 (0.31594881413887826)
+10:36:33,431 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 10654299
+10:36:56,132 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 10654299*** self JSD: 0.6502191026159815
+10:36:56,132 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:10654299 -> source:16563854 (0.5185962741436314)
+10:36:56,133 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:10654299 -> source:13287904 (0.5185962741436292)
+10:36:56,133 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:10654299 -> source:6833796 (0.50758472696563)
+10:36:56,133 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 7964762
+10:37:01,337 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 7964762*** self JSD: 0.5603353599413801
+10:37:01,337 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:7964762 -> source:751405 (0.5264959805361151)
+10:37:01,337 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:7964762 -> source:8639365 (0.49580992621449615)
+10:37:01,337 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:7964762 -> source:5822598 (0.49324062692650705)
+10:37:01,337 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 23346420
+10:37:16,432 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 23346420*** self JSD: -1.0
+10:37:16,432 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:23346420 -> source:9689728 (0.4472932619356161)
+10:37:16,432 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:23346420 -> source:6516955 (0.4463369626852792)
+10:37:16,432 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:23346420 -> source:469821 (0.43552541431416253)
+10:37:16,432 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 3134676
+10:37:46,247 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 3134676*** self JSD: 0.5198427857144631
+10:37:46,248 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:3134676 -> source:723190 (0.5807920475813027)
+10:37:46,248 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:3134676 -> source:2805245 (0.580064148980155)
+10:37:46,248 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:3134676 -> source:3134676 (0.5198427857144631)
+10:37:46,248 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 2578677
+10:37:58,688 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 2578677*** self JSD: 0.5545744424862877
+10:37:58,688 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:2578677 -> source:11677590 (0.5313303816756879)
+10:37:58,688 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:2578677 -> source:5890525 (0.5277888650173697)
+10:37:58,688 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:2578677 -> source:11572328 (0.5237128467716137)
+10:37:58,688 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 10424844
+10:38:16,342 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 10424844*** self JSD: 0.5098965834110137
+10:38:16,342 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:10424844 -> source:3708671 (0.4942490599364944)
+10:38:16,342 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:10424844 -> source:4525406 (0.48888495671982285)
+10:38:16,343 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:10424844 -> source:5072809 (0.4874291129794151)
+10:38:16,343 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 16889966
+10:38:35,667 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 16889966*** self JSD: 0.5524266242409467
+10:38:35,667 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:16889966 -> source:1881338 (0.49963677384807587)
+10:38:35,667 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:16889966 -> source:881500 (0.49729333862860475)
+10:38:35,667 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:16889966 -> source:87949 (0.48148617648043784)
+10:38:35,667 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 2616080
+10:38:50,334 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 2616080*** self JSD: 0.40820334144249965
+10:38:50,334 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:2616080 -> source:1461690 (0.547743106869801)
+10:38:50,334 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:2616080 -> source:11864857 (0.5416665058707023)
+10:38:50,335 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:2616080 -> source:2616080 (0.40820334144249965)
+10:38:50,335 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 5977195
+10:39:09,912 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 5977195*** self JSD: 0.5022516439608969
+10:39:09,912 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]* target:5977195 -> source:5977195 (0.5022516439608969)
+10:39:09,912 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:5977195 -> source:4731700 (0.5008492127224861)
+10:39:09,912 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:5977195 -> source:2581045 (0.48323275372580243)
+10:39:09,912 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 22953188
+10:39:35,878 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 22953188*** self JSD: -1.0
+10:39:35,878 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:22953188 -> source:2289762 (0.4675731673983309)
+10:39:35,878 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:22953188 -> source:13975914 (0.46685523282827157)
+10:39:35,878 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:22953188 -> source:2581045 (0.44289485004106754)
+10:39:35,878 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 98242
+10:39:57,702 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 98242*** self JSD: 0.39440001100991695
+10:39:57,702 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:98242 -> source:5091809 (0.48806666425764833)
+10:39:57,702 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:98242 -> source:5140477 (0.4751005831368796)
+10:39:57,703 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:98242 -> source:98242 (0.39440001100991695)
+10:39:57,703 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 1412529
+10:40:13,321 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 1412529*** self JSD: 0.604339309694356
+10:40:13,321 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:1412529 -> source:4508072 (0.5767554384963094)
+10:40:13,321 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:1412529 -> source:118270 (0.5760616917234463)
+10:40:13,321 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:1412529 -> source:4789107 (0.572708935913483)
+10:40:13,321 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 23685405
+10:40:26,759 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 23685405*** self JSD: -1.0
+10:40:26,759 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:23685405 -> source:7998037 (0.48847596304934815)
+10:40:26,759 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:23685405 -> source:4978134 (0.483644759941407)
+10:40:26,759 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:23685405 -> source:7071414 (0.4790112551714139)
+10:40:26,759 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 23986746
+10:40:33,982 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 23986746*** self JSD: -1.0
+10:40:33,982 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:23986746 -> source:18938713 (0.35262176688002483)
+10:40:33,982 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:23986746 -> source:16702034 (0.35262176688002483)
+10:40:33,982 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:23986746 -> source:11878958 (0.3494444458233043)
+10:40:33,982 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 2814361
+10:40:57,293 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 2814361*** self JSD: 0.26173589577633316
+10:40:57,294 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:2814361 -> source:1202810 (0.45109943939966113)
+10:40:57,294 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:2814361 -> source:99017 (0.4372396037192125)
+10:40:57,294 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:2814361 -> source:2814361 (0.26173589577633316)
+10:40:57,294 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 2049953
+10:41:41,482 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 2049953*** self JSD: 0.49637613318670837
+10:41:41,483 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:2049953 -> source:1568787 (0.5208550641510347)
+10:41:41,483 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:2049953 -> source:5606012 (0.5199850457717585)
+10:41:41,483 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:2049953 -> source:2049953 (0.49637613318670837)
+10:41:41,483 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 2691988
+10:42:19,081 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 2691988*** self JSD: 0.5641567477147524
+10:42:19,081 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:2691988 -> source:974621 (0.49884628119696595)
+10:42:19,081 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:2691988 -> source:13975914 (0.49858723356811935)
+10:42:19,081 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:2691988 -> source:4879801 (0.4972741110938302)
+10:42:19,081 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 198043
+10:42:27,277 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 198043*** self JSD: 0.6206972354972953
+10:42:27,277 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:198043 -> source:15803183 (0.4239607354258417)
+10:42:27,277 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:198043 -> source:8009654 (0.4239607354258417)
+10:42:27,277 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:198043 -> source:6694577 (0.4239607354258417)
+10:42:27,278 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 4214128
+10:42:35,489 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 4214128*** self JSD: 0.4774858905493046
+10:42:35,490 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:4214128 -> source:13666928 (0.5042423012848811)
+10:42:35,490 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:4214128 -> source:1755340 (0.49744727755974144)
+10:42:35,490 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:4214128 -> source:4214128 (0.4774858905493046)
+10:42:35,490 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 2929964
+10:42:47,995 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 2929964*** self JSD: 0.4868104398683513
+10:42:47,995 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:2929964 -> source:6396998 (0.4967789709747891)
+10:42:47,995 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:2929964 -> source:16139310 (0.49286863119774826)
+10:42:47,995 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:2929964 -> source:2929964 (0.4868104398683513)
+10:42:47,995 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 11361013
+10:42:58,612 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 11361013*** self JSD: 0.3645313272650199
+10:42:58,612 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:11361013 -> source:18014722 (0.45804716582076477)
+10:42:58,613 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:11361013 -> source:11502538 (0.457330588971714)
+10:42:58,613 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:11361013 -> source:11361013 (0.3645313272650199)
+10:42:58,613 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 4876975
+10:43:03,354 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 4876975*** self JSD: 0.46631266698810225
+10:43:03,355 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:4876975 -> source:9650951 (0.521876181752075)
+10:43:03,355 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:4876975 -> source:4149273 (0.5188390881309023)
+10:43:03,355 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:4876975 -> source:4876975 (0.46631266698810225)
+10:43:03,355 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 1970261
+10:43:32,313 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 1970261*** self JSD: 0.5087455043913846
+10:43:32,313 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:1970261 -> source:4670293 (0.4874901502025288)
+10:43:32,313 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:1970261 -> source:16026756 (0.46913689161984623)
+10:43:32,313 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:1970261 -> source:5464391 (0.4665047499800915)
+10:43:32,313 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 18203750
+10:43:48,885 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 18203750*** self JSD: 0.4490339003696363
+10:43:48,885 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:18203750 -> source:4984043 (0.5053827729334466)
+10:43:48,885 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:18203750 -> source:9049051 (0.4865726673180055)
+10:43:48,886 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:18203750 -> source:18203750 (0.4490339003696363)
+10:43:48,886 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 1168694
+10:44:01,872 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 1168694*** self JSD: 0.40913396126890117
+10:44:01,872 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:1168694 -> source:6601216 (0.5414551147365949)
+10:44:01,872 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:1168694 -> source:18339069 (0.5357934842474527)
+10:44:01,872 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:1168694 -> source:1168694 (0.40913396126890117)
+10:44:01,872 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 2441141
+10:44:15,725 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 2441141*** self JSD: 0.5589572832404002
+10:44:15,725 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:2441141 -> source:4047746 (0.5527383491779723)
+10:44:15,725 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:2441141 -> source:2581045 (0.5472558782198604)
+10:44:15,725 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:2441141 -> source:16071276 (0.5346713353988714)
+10:44:15,725 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 10205780
+10:44:32,475 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 10205780*** self JSD: 0.6798089295738792
+10:44:32,475 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:10205780 -> source:13703660 (0.5686613944665971)
+10:44:32,475 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:10205780 -> source:2991995 (0.5678767969162933)
+10:44:32,475 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:10205780 -> source:2774830 (0.5566756960643939)
+10:44:32,475 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 22863813
+10:44:46,678 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 22863813*** self JSD: -1.0
+10:44:46,678 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:22863813 -> source:6541467 (0.496120056204996)
+10:44:46,678 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:22863813 -> source:8298909 (0.48600845003984866)
+10:44:46,678 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:22863813 -> source:10309531 (0.4844946681450246)
+10:44:46,678 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 3892833
+10:45:01,819 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 3892833*** self JSD: 0.49108193123085075
+10:45:01,819 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:3892833 -> source:7301873 (0.5076925012972598)
+10:45:01,819 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]* target:3892833 -> source:3892833 (0.49108193123085075)
+10:45:01,819 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:3892833 -> source:5120869 (0.4828574255774802)
+10:45:01,819 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 1485775
+10:45:31,174 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 1485775*** self JSD: 0.5431881101098687
+10:45:31,174 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:1485775 -> source:5606012 (0.5852614002103733)
+10:45:31,174 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:1485775 -> source:1019251 (0.5796812622994314)
+10:45:31,174 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:1485775 -> source:1485775 (0.5431881101098687)
+10:45:31,175 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 378867
+10:46:00,310 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 378867*** self JSD: 0.5813953609939888
+10:46:00,310 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:378867 -> source:8819114 (0.5477452413832551)
+10:46:00,310 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:378867 -> source:6416301 (0.5416881943956963)
+10:46:00,311 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:378867 -> source:11836549 (0.5383976127989483)
+10:46:00,311 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 2741864
+10:46:23,139 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 2741864*** self JSD: 0.4537001021842976
+10:46:23,139 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:2741864 -> source:5450462 (0.46622075068410096)
+10:46:23,140 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:2741864 -> source:2939971 (0.46599868269011324)
+10:46:23,140 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:2741864 -> source:2741864 (0.4537001021842976)
+10:46:23,140 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 23659557
+10:46:43,979 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 23659557*** self JSD: -1.0
+10:46:43,979 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:23659557 -> source:7881501 (0.5229935207359703)
+10:46:43,979 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:23659557 -> source:15268335 (0.5210339507041494)
+10:46:43,979 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:23659557 -> source:18792835 (0.5175646825652169)
+10:46:43,979 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 2037028
+10:47:58,597 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 2037028*** self JSD: 0.270198820592069
+10:47:58,597 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:2037028 -> source:2581045 (0.27721620832022403)
+10:47:58,597 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:2037028 -> source:13975914 (0.27215281971447225)
+10:47:58,597 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:2037028 -> source:2037028 (0.270198820592069)
+10:47:58,597 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 1433896
+10:48:11,749 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 1433896*** self JSD: 0.3897644959448077
+10:48:11,749 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:1433896 -> source:6211274 (0.3999048361567473)
+10:48:11,749 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]* target:1433896 -> source:1433896 (0.3897644959448077)
+10:48:11,749 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:1433896 -> source:18734198 (0.38434583560838054)
+10:48:11,750 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 22350069
+10:48:28,197 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 22350069*** self JSD: -1.0
+10:48:28,197 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:22350069 -> source:17825154 (0.5067414954315639)
+10:48:28,197 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:22350069 -> source:14350153 (0.5067414954315639)
+10:48:28,197 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:22350069 -> source:18722495 (0.5067414954315639)
+10:48:28,197 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 1843108
+10:48:50,777 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 1843108*** self JSD: 0.524153533377184
+10:48:50,777 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:1843108 -> source:14389799 (0.5533883250234932)
+10:48:50,777 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:1843108 -> source:18686313 (0.5533883250234932)
+10:48:50,777 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:1843108 -> source:1843108 (0.524153533377184)
+10:48:50,777 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 276104
+10:48:56,992 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 276104*** self JSD: 0.5497479878091387
+10:48:56,992 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:276104 -> source:4437688 (0.5428722775744914)
+10:48:56,992 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:276104 -> source:7001474 (0.5270809889287473)
+10:48:56,992 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:276104 -> source:15333318 (0.5091464263657833)
+10:48:56,992 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 3057367
+10:49:21,651 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 3057367*** self JSD: 0.5135864378252684
+10:49:21,651 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:3057367 -> source:2091468 (0.5706195334332158)
+10:49:21,652 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:3057367 -> source:723190 (0.5648606306708596)
+10:49:21,652 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:3057367 -> source:3057367 (0.5135864378252684)
+10:49:21,652 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 6322330
+10:49:38,999 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 6322330*** self JSD: 0.47563955899047355
+10:49:38,999 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:6322330 -> source:2038905 (0.5817983965937753)
+10:49:38,999 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:6322330 -> source:6316153 (0.5763786586038805)
+10:49:38,999 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:6322330 -> source:6322330 (0.47563955899047355)
+10:49:38,999 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 935958
+10:50:04,818 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 935958*** self JSD: 0.5961116019100647
+10:50:04,818 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:935958 -> source:3548248 (0.5121151628041848)
+10:50:04,818 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:935958 -> source:2530951 (0.5118629764170552)
+10:50:04,818 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:935958 -> source:4590220 (0.4959491135266978)
+10:50:04,818 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 402227
+10:50:33,332 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 402227*** self JSD: 0.5043444840694996
+10:50:33,332 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:402227 -> source:15427168 (0.5098689515641491)
+10:50:33,333 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]* target:402227 -> source:402227 (0.5043444840694996)
+10:50:33,333 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:402227 -> source:807613 (0.491986337687959)
+10:50:33,333 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 5100487
+10:50:50,496 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 5100487*** self JSD: 0.6262067413694592
+10:50:50,496 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:5100487 -> source:13652340 (0.5480846776528395)
+10:50:50,497 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:5100487 -> source:10909355 (0.5442317596749251)
+10:50:50,497 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:5100487 -> source:7877558 (0.5404602223143304)
+10:50:50,497 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 1522094
+10:51:04,144 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 1522094*** self JSD: 0.44989898806341694
+10:51:04,144 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:1522094 -> source:3102231 (0.518174169767656)
+10:51:04,144 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:1522094 -> source:13714772 (0.5095617133091347)
+10:51:04,144 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:1522094 -> source:1522094 (0.44989898806341694)
+10:51:04,144 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 3944423
+10:51:12,172 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 3944423*** self JSD: 0.5339409603154176
+10:51:12,172 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:3944423 -> source:18683951 (0.5902069014904578)
+10:51:12,173 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:3944423 -> source:15995591 (0.5807983451151476)
+10:51:12,173 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:3944423 -> source:3944423 (0.5339409603154176)
+10:51:12,173 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 2942043
+10:51:47,176 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 2942043*** self JSD: 0.4808632375366639
+10:51:47,176 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:2942043 -> source:8819114 (0.5280018037348454)
+10:51:47,176 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:2942043 -> source:4879801 (0.5267432427103123)
+10:51:47,176 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:2942043 -> source:2942043 (0.4808632375366639)
+10:51:47,176 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 2959858
+10:52:20,430 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 2959858*** self JSD: 0.5196977771357145
+10:52:20,431 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:2959858 -> source:8484461 (0.5362130268656138)
+10:52:20,431 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:2959858 -> source:13975914 (0.5255102986061877)
+10:52:20,431 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:2959858 -> source:2959858 (0.5196977771357145)
+10:52:20,431 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 322241
+10:52:42,271 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 322241*** self JSD: 0.4236884852656191
+10:52:42,271 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:322241 -> source:15854994 (0.523468902627225)
+10:52:42,271 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:322241 -> source:3210710 (0.5231310491007197)
+10:52:42,271 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:322241 -> source:322241 (0.4236884852656191)
+10:52:42,271 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 12093813
+10:53:02,917 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 12093813*** self JSD: 0.29047474447520844
+10:53:02,917 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:12093813 -> source:9214648 (0.5009676887891458)
+10:53:02,917 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:12093813 -> source:3975007 (0.48305185982429694)
+10:53:02,917 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:12093813 -> source:12093813 (0.29047474447520844)
+10:53:02,917 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 992901
+10:53:26,481 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 992901*** self JSD: 0.4039095599065534
+10:53:26,481 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:992901 -> source:2511239 (0.4992852832222446)
+10:53:26,481 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:992901 -> source:4609214 (0.493697234012976)
+10:53:26,481 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:992901 -> source:992901 (0.4039095599065534)
+10:53:26,482 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 3488218
+10:53:45,425 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 3488218*** self JSD: 0.5210907352977843
+10:53:45,426 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:3488218 -> source:1341422 (0.5642828240792561)
+10:53:45,426 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:3488218 -> source:11836549 (0.5642418157310637)
+10:53:45,426 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:3488218 -> source:3488218 (0.5210907352977843)
+10:53:45,426 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 16786860
+10:53:49,100 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 16786860*** self JSD: 0.3870551805206476
+10:53:49,100 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:16786860 -> source:3483568 (0.5526933648033798)
+10:53:49,100 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:16786860 -> source:11960979 (0.4532633621367943)
+10:53:49,101 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:16786860 -> source:16786860 (0.3870551805206476)
+10:53:49,101 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 21476503
+10:53:59,513 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 21476503*** self JSD: -1.0
+10:53:59,513 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:21476503 -> source:15803183 (0.42178628030865695)
+10:53:59,513 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:21476503 -> source:8009654 (0.42178628030865695)
+10:53:59,513 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:21476503 -> source:6694577 (0.42178628030865695)
+10:53:59,513 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 5342598
+10:54:32,076 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 5342598*** self JSD: 0.428433558285849
+10:54:32,076 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:5342598 -> source:2636319 (0.42764356691998434)
+10:54:32,076 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:5342598 -> source:1687531 (0.42161778882445977)
+10:54:32,076 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:5342598 -> source:2530951 (0.41713642983222254)
+10:54:32,076 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 42075
+10:54:49,641 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 42075*** self JSD: 0.38493968177036314
+10:54:49,641 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:42075 -> source:17415418 (0.4611819075192818)
+10:54:49,642 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:42075 -> source:6984284 (0.4576734154743498)
+10:54:49,642 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:42075 -> source:42075 (0.38493968177036314)
+10:54:49,642 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 2742556
+10:55:00,865 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 2742556*** self JSD: 0.5044986813940991
+10:55:00,866 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:2742556 -> source:14921719 (0.4200603437124765)
+10:55:00,866 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:2742556 -> source:10853908 (0.4200603437124764)
+10:55:00,866 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:2742556 -> source:18021853 (0.4130472019301855)
+10:55:00,866 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 244392
+10:55:23,949 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 244392*** self JSD: 0.5052652555567031
+10:55:23,949 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:244392 -> source:8292467 (0.5283120639375235)
+10:55:23,949 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:244392 -> source:8832195 (0.5265494062180409)
+10:55:23,949 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:244392 -> source:244392 (0.5052652555567031)
+10:55:23,949 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 7303558
+10:55:43,727 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 7303558*** self JSD: 0.6046244365754306
+10:55:43,727 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:7303558 -> source:164361 (0.5386004488780127)
+10:55:43,728 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:7303558 -> source:5993605 (0.5380267041816807)
+10:55:43,728 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:7303558 -> source:3191279 (0.5295013936453886)
+10:55:43,728 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 3558890
+10:56:14,770 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 3558890*** self JSD: 0.5233388590098779
+10:56:14,771 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:3558890 -> source:2951238 (0.5450963901598052)
+10:56:14,771 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:3558890 -> source:2830237 (0.5447827917467455)
+10:56:14,771 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:3558890 -> source:3558890 (0.5233388590098779)
+10:56:14,771 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 4083335
+10:56:20,627 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 4083335*** self JSD: 0.5287602172569524
+10:56:20,627 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:4083335 -> source:11668300 (0.5345143981416478)
+10:56:20,627 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:4083335 -> source:8407085 (0.5330395947238933)
+10:56:20,628 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:4083335 -> source:4083335 (0.5287602172569524)
+10:56:20,628 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 2321559
+10:56:58,076 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 2321559*** self JSD: 0.5375429535680394
+10:56:58,076 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:2321559 -> source:1927332 (0.5728658079183342)
+10:56:58,076 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:2321559 -> source:3401101 (0.5728521739578634)
+10:56:58,076 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:2321559 -> source:2321559 (0.5375429535680394)
+10:56:58,076 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 3400536
+10:57:05,783 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 3400536*** self JSD: 0.46848595507770846
+10:57:05,784 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:3400536 -> source:6394318 (0.5181451360196643)
+10:57:05,784 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:3400536 -> source:16778036 (0.5131961127164552)
+10:57:05,784 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:3400536 -> source:3400536 (0.46848595507770846)
+10:57:05,784 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 10698793
+10:57:28,962 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 10698793*** self JSD: 0.6620837640672741
+10:57:28,962 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:10698793 -> source:3173804 (0.5466362544447246)
+10:57:28,963 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:10698793 -> source:12033442 (0.5443140418081702)
+10:57:28,963 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:10698793 -> source:16308166 (0.5423442587073654)
+10:57:28,963 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 1242562
+10:57:53,044 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 1242562*** self JSD: 0.5901398676139402
+10:57:53,044 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:1242562 -> source:699537 (0.5426422066283055)
+10:57:53,044 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:1242562 -> source:3100749 (0.5426421503679324)
+10:57:53,044 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:1242562 -> source:1199860 (0.5280904860655434)
+10:57:53,044 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 1271360
+10:57:55,513 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 1271360*** self JSD: 0.40139409038676627
+10:57:55,514 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:1271360 -> source:6921143 (0.2864549057033458)
+10:57:55,514 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:1271360 -> source:14777591 (0.2864549057033458)
+10:57:55,514 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:1271360 -> source:16766898 (0.2780338397056088)
+10:57:55,514 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 2544991
+10:58:13,851 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 2544991*** self JSD: 0.3865349583228539
+10:58:13,851 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:2544991 -> source:15245493 (0.5149156042225137)
+10:58:13,851 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:2544991 -> source:1264678 (0.5140643506614564)
+10:58:13,851 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:2544991 -> source:2544991 (0.3865349583228539)
+10:58:13,851 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 3036218
+10:58:41,218 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 3036218*** self JSD: 0.46988300333711996
+10:58:41,219 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:3036218 -> source:2742055 (0.5193605273516825)
+10:58:41,219 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:3036218 -> source:3140444 (0.5172081363451041)
+10:58:41,219 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:3036218 -> source:3036218 (0.46988300333711996)
+10:58:41,219 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 2839690
+10:58:57,533 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 2839690*** self JSD: 0.36385729709834674
+10:58:57,533 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:2839690 -> source:13011741 (0.5260640426742861)
+10:58:57,534 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:2839690 -> source:6589707 (0.488731378509498)
+10:58:57,534 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:2839690 -> source:2839690 (0.36385729709834674)
+10:58:57,534 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 1064524
+10:59:16,768 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 1064524*** self JSD: 0.4212519927160674
+10:59:16,768 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:1064524 -> source:11338419 (0.5071956066422392)
+10:59:16,768 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:1064524 -> source:10468544 (0.4769329356740969)
+10:59:16,768 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:1064524 -> source:1064524 (0.4212519927160674)
+10:59:16,768 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 3269359
+11:00:04,790 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 3269359*** self JSD: 0.49516196192021456
+11:00:04,790 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:3269359 -> source:16047321 (0.5177318178911077)
+11:00:04,790 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]* target:3269359 -> source:3269359 (0.49516196192021456)
+11:00:04,790 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:3269359 -> source:711391 (0.49434459844894807)
+11:00:04,791 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 5577970
+11:00:36,894 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 5577970*** self JSD: 0.5164744946438206
+11:00:36,894 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:5577970 -> source:671641 (0.5412275476718362)
+11:00:36,894 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:5577970 -> source:326728 (0.5252491797533845)
+11:00:36,894 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:5577970 -> source:5577970 (0.5164744946438206)
+11:00:36,895 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 1522840
+11:01:25,136 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 1522840*** self JSD: 0.4819654367569719
+11:01:25,136 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:1522840 -> source:11730687 (0.5307160420367696)
+11:01:25,136 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:1522840 -> source:2581045 (0.5180510536211906)
+11:01:25,136 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:1522840 -> source:1522840 (0.4819654367569719)
+11:01:25,136 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 2985447
+11:01:38,602 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 2985447*** self JSD: 0.49771114310966896
+11:01:38,602 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:2985447 -> source:14010759 (0.5294214633390248)
+11:01:38,602 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:2985447 -> source:13169886 (0.5283386119475614)
+11:01:38,602 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:2985447 -> source:2985447 (0.49771114310966896)
+11:01:38,602 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 8049188
+11:01:44,383 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 8049188*** self JSD: 0.5870773372422893
+11:01:44,383 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:8049188 -> source:16322601 (0.5135914760828322)
+11:01:44,383 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:8049188 -> source:15224324 (0.5126283482299004)
+11:01:44,383 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:8049188 -> source:6239210 (0.5074464767290521)
+11:01:44,383 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 4488985
+11:01:51,046 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 4488985*** self JSD: 0.20624068540006316
+11:01:51,046 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:4488985 -> source:16130296 (0.4574129297310053)
+11:01:51,046 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:4488985 -> source:16610055 (0.4131046318804364)
+11:01:51,046 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:4488985 -> source:4488985 (0.20624068540006316)
+11:01:51,046 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 3817598
+11:01:58,918 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 3817598*** self JSD: 0.48232499966498926
+11:01:58,918 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:3817598 -> source:12236663 (0.5585034909807256)
+11:01:58,918 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:3817598 -> source:16503511 (0.545138152452316)
+11:01:58,918 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:3817598 -> source:3817598 (0.48232499966498926)
+11:01:58,918 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 5126120
+11:02:26,714 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 5126120*** self JSD: 0.526852030940471
+11:02:26,714 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:5126120 -> source:1659952 (0.5961019667462006)
+11:02:26,714 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:5126120 -> source:1471463 (0.5671066843871773)
+11:02:26,714 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:5126120 -> source:5126120 (0.526852030940471)
+11:02:26,714 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 7437873
+11:02:44,374 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 7437873*** self JSD: 0.5644800445673845
+11:02:44,374 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:7437873 -> source:4820858 (0.4894579442529799)
+11:02:44,374 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:7437873 -> source:10158813 (0.48762985437959244)
+11:02:44,374 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:7437873 -> source:6632233 (0.4774585341973855)
+11:02:44,374 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 22537034
+11:02:59,965 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 22537034*** self JSD: -1.0
+11:02:59,965 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:22537034 -> source:2496924 (0.5307698719147289)
+11:02:59,965 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:22537034 -> source:13119472 (0.530609012755003)
+11:02:59,965 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:22537034 -> source:10922539 (0.5156931737215639)
+11:02:59,965 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 23475279
+11:03:07,949 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 23475279*** self JSD: -1.0
+11:03:07,949 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:23475279 -> source:10756313 (0.3735303845676822)
+11:03:07,949 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:23475279 -> source:10004981 (0.3735303845676822)
+11:03:07,950 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:23475279 -> source:2175168 (0.3735303845676822)
+11:03:07,950 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 3080732
+11:03:19,185 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 3080732*** self JSD: 0.27941903143518576
+11:03:19,185 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:3080732 -> source:12209526 (0.5507002351886553)
+11:03:19,186 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:3080732 -> source:3582675 (0.5111164495396983)
+11:03:19,186 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:3080732 -> source:3080732 (0.27941903143518576)
+11:03:19,186 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 1142666
+11:03:28,374 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 1142666*** self JSD: 0.2489759729326328
+11:03:28,374 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:1142666 -> source:15444670 (0.563546613402093)
+11:03:28,374 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:1142666 -> source:4777717 (0.5550437965837113)
+11:03:28,374 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:1142666 -> source:1142666 (0.2489759729326328)
+11:03:28,374 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 23579223
+11:03:56,415 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 23579223*** self JSD: -1.0
+11:03:56,416 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:23579223 -> source:1586217 (0.5511937481906685)
+11:03:56,416 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:23579223 -> source:2146755 (0.5484472678171377)
+11:03:56,416 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:23579223 -> source:957369 (0.5343136205192571)
+11:03:56,416 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 2450077
+11:04:30,514 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 2450077*** self JSD: 0.5384801529139875
+11:04:30,515 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:2450077 -> source:5391022 (0.5799523362504778)
+11:04:30,515 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:2450077 -> source:4731700 (0.5795378592300545)
+11:04:30,515 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:2450077 -> source:2450077 (0.5384801529139875)
+11:04:30,515 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 13270547
+11:04:35,384 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 13270547*** self JSD: 0.6931471805599456
+11:04:35,384 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:13270547 -> source:18936993 (0.4297841653810305)
+11:04:35,384 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:13270547 -> source:17158556 (0.41071761178949445)
+11:04:35,384 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:13270547 -> source:18463122 (0.37556221131344036)
+11:04:35,384 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 24318885
+11:04:43,398 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 24318885*** self JSD: -1.0
+11:04:43,398 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:24318885 -> source:10435086 (0.5212377250223089)
+11:04:43,398 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:24318885 -> source:10690163 (0.5156484798820057)
+11:04:43,398 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:24318885 -> source:6715039 (0.5071214055926013)
+11:04:43,398 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 17321166
+11:04:57,365 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 17321166*** self JSD: 0.6931471805599488
+11:04:57,365 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:17321166 -> source:2541691 (0.5655401124761337)
+11:04:57,365 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:17321166 -> source:4449689 (0.5652917390148349)
+11:04:57,365 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:17321166 -> source:796891 (0.5490674345570737)
+11:04:57,365 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 16623147
+11:05:17,705 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 16623147*** self JSD: 0.26136780841028245
+11:05:17,705 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:16623147 -> source:13263062 (0.37950431608503854)
+11:05:17,706 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:16623147 -> source:8609938 (0.29450135839654323)
+11:05:17,706 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:16623147 -> source:16623147 (0.26136780841028245)
+11:05:17,706 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 4265086
+11:05:51,763 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 4265086*** self JSD: 0.4171734087048946
+11:05:51,763 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:4265086 -> source:8774907 (0.5511116471576311)
+11:05:51,763 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:4265086 -> source:2784836 (0.5442153717312731)
+11:05:51,763 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:4265086 -> source:4265086 (0.4171734087048946)
+11:05:51,764 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 443567
+11:06:48,046 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 443567*** self JSD: 0.4713550007460742
+11:06:48,046 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:443567 -> source:236695 (0.5768626501223465)
+11:06:48,046 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]* target:443567 -> source:443567 (0.4713550007460742)
+11:06:48,046 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:443567 -> source:1659408 (0.4337543932988999)
+11:06:48,046 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 231793
+11:06:59,886 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 231793*** self JSD: 0.5754871357358589
+11:06:59,886 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:231793 -> source:9378186 (0.515455182529217)
+11:06:59,887 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:231793 -> source:17942078 (0.5128486283499846)
+11:06:59,887 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:231793 -> source:5522988 (0.5010207243109285)
+11:06:59,887 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 3210710
+11:07:21,225 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 3210710*** self JSD: 0.47953944872503085
+11:07:21,225 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:3210710 -> source:6994193 (0.5172262473982345)
+11:07:21,226 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:3210710 -> source:496616 (0.5025314567197045)
+11:07:21,226 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:3210710 -> source:3210710 (0.47953944872503085)
+11:07:21,226 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 16734713
+11:07:39,602 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 16734713*** self JSD: 0.5224798343463146
+11:07:39,602 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:16734713 -> source:1311782 (0.4898705638743426)
+11:07:39,602 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:16734713 -> source:3666362 (0.47566631972121254)
+11:07:39,602 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:16734713 -> source:8944652 (0.4743425608543163)
+11:07:39,602 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 1474278
+11:07:49,207 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 1474278*** self JSD: 0.6610848758942114
+11:07:49,207 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:1474278 -> source:15803183 (0.36920863890438776)
+11:07:49,207 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:1474278 -> source:8009654 (0.36920863890438776)
+11:07:49,207 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:1474278 -> source:6694577 (0.36920863890438776)
+11:07:49,207 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 13023087
+11:07:54,890 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 13023087*** self JSD: 0.6827955925521496
+11:07:54,890 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:13023087 -> source:15761348 (0.46425725005184837)
+11:07:54,890 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:13023087 -> source:12171540 (0.452594456878045)
+11:07:54,890 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:13023087 -> source:9998384 (0.42994071956470314)
+11:07:54,890 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 2558362
+11:08:25,721 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 2558362*** self JSD: 0.4698273561366412
+11:08:25,721 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:2558362 -> source:13975914 (0.549161128248121)
+11:08:25,721 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:2558362 -> source:3352673 (0.5441860547773044)
+11:08:25,722 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:2558362 -> source:2558362 (0.4698273561366412)
+11:08:25,722 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 2867535
+11:08:39,779 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 2867535*** self JSD: 0.3789097869809685
+11:08:39,780 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:2867535 -> source:17397889 (0.533353102200811)
+11:08:39,780 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:2867535 -> source:6527924 (0.5211183530193731)
+11:08:39,780 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:2867535 -> source:2867535 (0.3789097869809685)
+11:08:39,780 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 3621375
+11:08:49,445 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 3621375*** self JSD: 0.5206833517421526
+11:08:49,446 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:3621375 -> source:11203194 (0.513658492303325)
+11:08:49,446 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:3621375 -> source:18356291 (0.512414130504913)
+11:08:49,446 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:3621375 -> source:14439414 (0.5060479871498693)
+11:08:49,446 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 3340878
+11:09:03,519 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 3340878*** self JSD: 0.6143377267456692
+11:09:03,519 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:3340878 -> source:4437688 (0.5261665737578197)
+11:09:03,519 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:3340878 -> source:11478318 (0.5217265691159323)
+11:09:03,519 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:3340878 -> source:5971972 (0.5217265691159323)
+11:09:03,519 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 22917597
+11:09:08,768 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 22917597*** self JSD: -1.0
+11:09:08,768 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:22917597 -> source:10268715 (0.4722934290862151)
+11:09:08,768 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:22917597 -> source:12996833 (0.4539406395382936)
+11:09:08,769 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:22917597 -> source:7168914 (0.4481833407272663)
+11:09:08,769 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 361709
+11:09:21,371 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 361709*** self JSD: 0.4435321694232574
+11:09:21,371 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:361709 -> source:18825094 (0.5664968120002725)
+11:09:21,371 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:361709 -> source:18012841 (0.5664968120002725)
+11:09:21,371 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:361709 -> source:361709 (0.4435321694232574)
+11:09:21,371 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 2183008
+11:09:53,080 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 2183008*** self JSD: 0.48339883626384533
+11:09:53,081 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:2183008 -> source:2532838 (0.5910981602168915)
+11:09:53,081 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:2183008 -> source:1432692 (0.5805937498666845)
+11:09:53,081 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:2183008 -> source:2183008 (0.48339883626384533)
+11:09:53,081 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 6234481
+11:10:15,581 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 6234481*** self JSD: 0.5708492907177302
+11:10:15,581 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:6234481 -> source:2753343 (0.5300520233739314)
+11:10:15,581 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:6234481 -> source:1845795 (0.521371255702233)
+11:10:15,582 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:6234481 -> source:5634294 (0.5183986717905784)
+11:10:15,582 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 1082963
+11:10:23,066 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 1082963*** self JSD: 0.41632244205236935
+11:10:23,066 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:1082963 -> source:8785408 (0.36364387194836334)
+11:10:23,067 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:1082963 -> source:11075240 (0.34220009664611184)
+11:10:23,067 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:1082963 -> source:3408405 (0.2978554772191375)
+11:10:23,067 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 2122282
+11:10:40,868 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 2122282*** self JSD: 0.4990710895253191
+11:10:40,868 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:2122282 -> source:2557544 (0.5645458319780875)
+11:10:40,868 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:2122282 -> source:12815132 (0.5568357895056031)
+11:10:40,868 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:2122282 -> source:2122282 (0.4990710895253191)
+11:10:40,868 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 3128420
+11:10:49,745 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 3128420*** self JSD: 0.45215463953999563
+11:10:49,745 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:3128420 -> source:4149563 (0.5497714901389058)
+11:10:49,745 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:3128420 -> source:10697644 (0.5462032167461023)
+11:10:49,745 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:3128420 -> source:3128420 (0.45215463953999563)
+11:10:49,746 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 2135595
+11:11:06,584 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 2135595*** self JSD: 0.5169512163592115
+11:11:06,584 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:2135595 -> source:14604925 (0.516889804714631)
+11:11:06,585 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:2135595 -> source:13351286 (0.5134222578692039)
+11:11:06,585 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:2135595 -> source:8292467 (0.5114889318063421)
+11:11:06,585 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 12227793
+11:11:24,444 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 12227793*** self JSD: 0.5299602922811689
+11:11:24,445 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:12227793 -> source:2351272 (0.5875936310226515)
+11:11:24,445 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:12227793 -> source:1586217 (0.5793181298850378)
+11:11:24,445 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:12227793 -> source:12227793 (0.5299602922811689)
+11:11:24,445 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 4035932
+11:11:48,387 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 4035932*** self JSD: 0.5199112151980088
+11:11:48,387 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:4035932 -> source:3500164 (0.5171267460809591)
+11:11:48,387 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:4035932 -> source:2939971 (0.515997374354159)
+11:11:48,387 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:4035932 -> source:2783317 (0.5108276102048787)
+11:11:48,388 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 967701
+11:12:08,748 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 967701*** self JSD: 0.3817017418659517
+11:12:08,748 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:967701 -> source:7877662 (0.4909820560287819)
+11:12:08,748 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:967701 -> source:3553099 (0.4491568722851658)
+11:12:08,748 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:967701 -> source:967701 (0.3817017418659517)
+11:12:08,749 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 6046738
+11:12:12,865 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 6046738*** self JSD: 0.5754619115928916
+11:12:12,865 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:6046738 -> source:16746970 (0.4652960855717959)
+11:12:12,865 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:6046738 -> source:8730360 (0.462693988988827)
+11:12:12,865 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:6046738 -> source:16432953 (0.4440681584827028)
+11:12:12,865 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 5264701
+11:12:34,019 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 5264701*** self JSD: 0.49561346983045235
+11:12:34,019 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:5264701 -> source:2383801 (0.540470397135139)
+11:12:34,019 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:5264701 -> source:14803472 (0.5322359616223392)
+11:12:34,019 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:5264701 -> source:5264701 (0.49561346983045235)
+11:12:34,019 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 23187425
+11:16:28,924 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 23187425*** self JSD: -1.0
+11:16:28,924 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:23187425 -> source:2037028 (0.362858220269686)
+11:16:28,925 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:23187425 -> source:3761151 (0.35693060112189495)
+11:16:28,925 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:23187425 -> source:13975914 (0.28418253081457057)
+11:16:28,925 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 22911271
+11:16:51,356 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 22911271*** self JSD: -1.0
+11:16:51,356 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:22911271 -> source:3318344 (0.5274257477385547)
+11:16:51,356 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:22911271 -> source:7709426 (0.5267480843076837)
+11:16:51,356 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:22911271 -> source:7774085 (0.5266425960665169)
+11:16:51,356 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 10072963
+11:17:19,633 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 10072963*** self JSD: 0.4730024024499037
+11:17:19,633 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:10072963 -> source:711391 (0.5489787163486449)
+11:17:19,633 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:10072963 -> source:816235 (0.5470877384405722)
+11:17:19,633 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:10072963 -> source:10072963 (0.4730024024499037)
+11:17:19,633 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 3929398
+11:17:28,606 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 3929398*** self JSD: 0.42220730824121827
+11:17:28,607 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:3929398 -> source:17352204 (0.3094615850302346)
+11:17:28,607 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:3929398 -> source:13938083 (0.3094615850302346)
+11:17:28,607 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:3929398 -> source:17214336 (0.3094615850302346)
+11:17:28,607 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 22238305
+11:18:01,536 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 22238305*** self JSD: -1.0
+11:18:01,536 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:22238305 -> source:472580 (0.556234543273768)
+11:18:01,536 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:22238305 -> source:37830 (0.5548757490734725)
+11:18:01,536 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:22238305 -> source:4842416 (0.5514904220797836)
+11:18:01,536 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 2757861
+11:18:13,185 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 2757861*** self JSD: 0.611510033351342
+11:18:13,185 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:2757861 -> source:5900808 (0.5422752612408234)
+11:18:13,185 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:2757861 -> source:12759084 (0.5418500049480365)
+11:18:13,185 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:2757861 -> source:14991072 (0.5347078780972322)
+11:18:13,185 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 11447713
+11:18:19,295 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 11447713*** self JSD: 0.586293712057493
+11:18:19,295 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:11447713 -> source:17187231 (0.4717185806040134)
+11:18:19,295 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:11447713 -> source:11327106 (0.47164957533487084)
+11:18:19,296 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:11447713 -> source:7516293 (0.4438656545622676)
+11:18:19,296 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 723190
+11:19:13,719 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 723190*** self JSD: 0.42921243775032897
+11:19:13,719 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:723190 -> source:4216857 (0.49993422723596537)
+11:19:13,719 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:723190 -> source:2209878 (0.496419303380452)
+11:19:13,719 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:723190 -> source:723190 (0.42921243775032897)
+11:19:13,719 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 4095191
+11:19:21,095 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 4095191*** self JSD: 0.2424151109948475
+11:19:21,095 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:4095191 -> source:11247868 (0.5173525269164152)
+11:19:21,095 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:4095191 -> source:6412118 (0.44508805309336447)
+11:19:21,096 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:4095191 -> source:4095191 (0.2424151109948475)
+11:19:21,096 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 1611846
+11:19:48,759 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 1611846*** self JSD: 0.4537122019914949
+11:19:48,759 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:1611846 -> source:2530951 (0.44277543975924605)
+11:19:48,759 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:1611846 -> source:3256099 (0.43520525423399864)
+11:19:48,760 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:1611846 -> source:12979134 (0.42689979305547093)
+11:19:48,760 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 5368455
+11:20:07,007 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 5368455*** self JSD: 0.5648737735677277
+11:20:07,007 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:5368455 -> source:2581045 (0.5155590226934217)
+11:20:07,007 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:5368455 -> source:2209878 (0.5130909331868977)
+11:20:07,007 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:5368455 -> source:4437688 (0.49393204254256234)
+11:20:07,007 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 3759105
+11:21:01,416 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 3759105*** self JSD: 0.32449672208675423
+11:21:01,416 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:3759105 -> source:1337671 (0.4797271575444867)
+11:21:01,417 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:3759105 -> source:13975914 (0.47802456274088323)
+11:21:01,417 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:3759105 -> source:3759105 (0.32449672208675423)
+11:21:01,417 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 4099662
+11:21:15,899 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 4099662*** self JSD: 0.5764868138015903
+11:21:15,900 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:4099662 -> source:4488918 (0.5539504622941763)
+11:21:15,900 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:4099662 -> source:2842332 (0.5452575801189213)
+11:21:15,900 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:4099662 -> source:12627287 (0.534170511493124)
+11:21:15,900 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 2197351
+11:21:39,825 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 2197351*** self JSD: 0.5416802079520573
+11:21:39,825 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:2197351 -> source:1949064 (0.535009081889263)
+11:21:39,826 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:2197351 -> source:8401127 (0.5198576495506197)
+11:21:39,826 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:2197351 -> source:5091809 (0.5133213425103925)
+11:21:39,826 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 12234266
+11:21:55,121 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 12234266*** self JSD: 0.6550423113939755
+11:21:55,122 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:12234266 -> source:3187142 (0.5201638708415629)
+11:21:55,122 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:12234266 -> source:974621 (0.5152912594241744)
+11:21:55,122 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:12234266 -> source:2581045 (0.5140400291243411)
+11:21:55,122 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 2510801
+11:22:03,948 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 2510801*** self JSD: 0.4527742620480383
+11:22:03,949 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:2510801 -> source:5229964 (0.560616189433122)
+11:22:03,949 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:2510801 -> source:4987028 (0.5573951688423054)
+11:22:03,949 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:2510801 -> source:2510801 (0.4527742620480383)
+11:22:03,949 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 2301312
+11:22:22,836 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 2301312*** self JSD: 0.31958594565749443
+11:22:22,836 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:2301312 -> source:9520042 (0.4502206595508186)
+11:22:22,836 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:2301312 -> source:303458 (0.4229815341078377)
+11:22:22,836 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:2301312 -> source:2301312 (0.31958594565749443)
+11:22:22,836 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 669531
+11:22:41,960 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 669531*** self JSD: 0.3517295229427267
+11:22:41,960 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:669531 -> source:2271867 (0.5081559923366138)
+11:22:41,960 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:669531 -> source:4609214 (0.5042136084957568)
+11:22:41,960 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:669531 -> source:669531 (0.3517295229427267)
+11:22:41,960 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 1560404
+11:23:00,109 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 1560404*** self JSD: 0.544022373428407
+11:23:00,109 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:1560404 -> source:8875722 (0.5748561989058693)
+11:23:00,109 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:1560404 -> source:14396822 (0.5732289656520252)
+11:23:00,109 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:1560404 -> source:1560404 (0.544022373428407)
+11:23:00,109 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 2359287
+11:23:37,616 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 2359287*** self JSD: 0.44091856938062807
+11:23:37,616 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:2359287 -> source:11162576 (0.6106012964687675)
+11:23:37,616 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:2359287 -> source:8388376 (0.49381796301862085)
+11:23:37,616 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:2359287 -> source:2359287 (0.44091856938062807)
+11:23:37,617 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 4805372
+11:24:01,782 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 4805372*** self JSD: 0.5029813364982813
+11:24:01,782 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:4805372 -> source:4839878 (0.5123369001419588)
+11:24:01,783 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:4805372 -> source:1687531 (0.5103771702400631)
+11:24:01,783 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:4805372 -> source:4805372 (0.5029813364982813)
+11:24:01,783 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 2497060
+11:24:14,436 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 2497060*** self JSD: 0.48987565147187395
+11:24:14,436 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:2497060 -> source:14313758 (0.3392963991487585)
+11:24:14,436 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:2497060 -> source:16465106 (0.3392963991487585)
+11:24:14,436 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:2497060 -> source:6211274 (0.3392963991487585)
+11:24:14,437 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 3800126
+11:24:53,893 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 3800126*** self JSD: 0.3104917549966046
+11:24:53,893 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:3800126 -> source:236695 (0.47641117998170873)
+11:24:53,893 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:3800126 -> source:7918600 (0.43497424316186334)
+11:24:53,893 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:3800126 -> source:3800126 (0.3104917549966046)
+11:24:53,893 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 12497285
+11:25:00,637 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 12497285*** self JSD: 0.5982708495334739
+11:25:00,637 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:12497285 -> source:18288340 (0.4867932051535241)
+11:25:00,637 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:12497285 -> source:3997512 (0.48270857010106805)
+11:25:00,638 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:12497285 -> source:8478271 (0.4353372544043354)
+11:25:00,638 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 13024296
+11:25:12,213 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 13024296*** self JSD: 0.6754016403973856
+11:25:12,213 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:13024296 -> source:12122859 (0.5501460216291691)
+11:25:12,213 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:13024296 -> source:917673 (0.5475328107005754)
+11:25:12,213 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:13024296 -> source:13343016 (0.5431840437094018)
+11:25:12,213 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 1518888
+11:25:19,231 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 1518888*** self JSD: 0.604667090723172
+11:25:19,232 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:1518888 -> source:13310580 (0.5412390585254108)
+11:25:19,232 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:1518888 -> source:15079990 (0.5369472163391982)
+11:25:19,232 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:1518888 -> source:18444856 (0.5369472163391981)
+11:25:19,232 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 8865311
+11:25:34,896 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 8865311*** self JSD: 0.5371502189169154
+11:25:34,897 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:8865311 -> source:12813706 (0.36905221779601216)
+11:25:34,897 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:8865311 -> source:16986070 (0.36905221779601216)
+11:25:34,897 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:8865311 -> source:6511884 (0.36905221779601216)
+11:25:34,897 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 2414998
+11:25:55,190 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 2414998*** self JSD: 0.49760232083598166
+11:25:55,190 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:2414998 -> source:2530951 (0.5152196788419235)
+11:25:55,190 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:2414998 -> source:5091809 (0.5083523026052177)
+11:25:55,190 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:2414998 -> source:2414998 (0.49760232083598166)
+11:25:55,190 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 25402
+11:26:10,354 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 25402*** self JSD: 0.5298031884918507
+11:26:10,354 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:25402 -> source:5745839 (0.612234433871094)
+11:26:10,354 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:25402 -> source:6294937 (0.6099911393059604)
+11:26:10,354 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:25402 -> source:25402 (0.5298031884918507)
+11:26:10,354 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 5125894
+11:26:17,296 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 5125894*** self JSD: 0.5739477549579637
+11:26:17,296 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:5125894 -> source:9645877 (0.5401817719634302)
+11:26:17,296 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:5125894 -> source:4783312 (0.5387630038818295)
+11:26:17,296 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:5125894 -> source:2338597 (0.5232389962971696)
+11:26:17,297 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 2984972
+11:26:31,758 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 2984972*** self JSD: 0.5306280837933538
+11:26:31,758 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:2984972 -> source:505503 (0.5914768764782089)
+11:26:31,758 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:2984972 -> source:6580979 (0.5899836075248299)
+11:26:31,758 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:2984972 -> source:2984972 (0.5306280837933538)
+11:26:31,758 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 2172805
+11:27:01,975 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 2172805*** self JSD: 0.525669933058336
+11:27:01,975 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:2172805 -> source:236695 (0.5453009634678319)
+11:27:01,975 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:2172805 -> source:4879801 (0.5289713925538432)
+11:27:01,975 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:2172805 -> source:2172805 (0.525669933058336)
+11:27:01,975 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 2808328
+11:27:18,507 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 2808328*** self JSD: 0.5972585315658471
+11:27:18,507 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:2808328 -> source:14598311 (0.5226850827562691)
+11:27:18,507 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:2808328 -> source:10668125 (0.514954406950255)
+11:27:18,507 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:2808328 -> source:12689326 (0.503428428662733)
+11:27:18,507 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 3092219
+11:27:38,135 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 3092219*** self JSD: 0.5635828745816751
+11:27:38,135 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:3092219 -> source:15803183 (0.48251070728775347)
+11:27:38,135 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:3092219 -> source:10600033 (0.48251070728775347)
+11:27:38,135 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:3092219 -> source:6694577 (0.48251070728775347)
+11:27:38,135 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 5683049
+11:28:02,392 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 5683049*** self JSD: 0.5543937110456577
+11:28:02,392 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:5683049 -> source:1675707 (0.48091284855822897)
+11:28:02,392 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:5683049 -> source:11837303 (0.4778217722718838)
+11:28:02,392 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:5683049 -> source:2833889 (0.47556690615441255)
+11:28:02,392 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 266804
+11:28:26,306 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 266804*** self JSD: 0.5482739231281021
+11:28:26,306 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]* target:266804 -> source:266804 (0.5482739231281021)
+11:28:26,306 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:266804 -> source:4753804 (0.547323647930858)
+11:28:26,306 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:266804 -> source:3389676 (0.534924191825593)
+11:28:26,306 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 1348643
+11:28:35,956 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 1348643*** self JSD: 0.6511552972553931
+11:28:35,957 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:1348643 -> source:637581 (0.5251225897511251)
+11:28:35,957 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:1348643 -> source:16896359 (0.5243196238509668)
+11:28:35,957 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:1348643 -> source:1505614 (0.5199137960753712)
+11:28:35,957 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 1467394
+11:29:07,634 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 1467394*** self JSD: 0.44212422718606414
+11:29:07,634 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:1467394 -> source:364193 (0.6006149322011707)
+11:29:07,634 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:1467394 -> source:2413887 (0.5894981901228781)
+11:29:07,634 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:1467394 -> source:1467394 (0.44212422718606414)
+11:29:07,634 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 9923088
+11:29:14,732 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 9923088*** self JSD: 0.49994848356774774
+11:29:14,732 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:9923088 -> source:2237930 (0.5429040349213359)
+11:29:14,732 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:9923088 -> source:2612692 (0.5387998810294529)
+11:29:14,732 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:9923088 -> source:9923088 (0.49994848356774774)
+11:29:14,732 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 19502190
+11:29:27,476 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 19502190*** self JSD: -1.0
+11:29:27,476 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:19502190 -> source:6093434 (0.5730831915177806)
+11:29:27,476 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:19502190 -> source:17421298 (0.5618287030163046)
+11:29:27,476 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:19502190 -> source:11712558 (0.5618287030163046)
+11:29:27,476 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 3546646
+11:29:59,231 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 3546646*** self JSD: 0.5458842242958544
+11:29:59,231 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:3546646 -> source:2945543 (0.5465895464793012)
+11:29:59,232 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]* target:3546646 -> source:3546646 (0.5458842242958544)
+11:29:59,232 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:3546646 -> source:2530951 (0.5323714003821517)
+11:29:59,232 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 5790732
+11:30:16,879 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 5790732*** self JSD: 0.541763279525701
+11:30:16,879 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:5790732 -> source:774599 (0.5827730700229423)
+11:30:16,880 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:5790732 -> source:689557 (0.5736358428464678)
+11:30:16,880 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:5790732 -> source:5790732 (0.541763279525701)
+11:30:16,880 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 1007644
+11:30:50,599 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 1007644*** self JSD: 0.40424507934098175
+11:30:50,599 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:1007644 -> source:881500 (0.49306095915956505)
+11:30:50,599 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:1007644 -> source:236695 (0.4799046815678938)
+11:30:50,599 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:1007644 -> source:1007644 (0.40424507934098175)
+11:30:50,599 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 7098635
+11:31:02,395 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 7098635*** self JSD: 0.43804287659951463
+11:31:02,395 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:7098635 -> source:3389676 (0.48992014102917864)
+11:31:02,395 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:7098635 -> source:4081757 (0.48583655881253107)
+11:31:02,395 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:7098635 -> source:7098635 (0.43804287659951463)
+11:31:02,395 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 14839646
+11:31:29,668 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 14839646*** self JSD: 0.5705158818101536
+11:31:29,668 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:14839646 -> source:2975777 (0.5824799441723327)
+11:31:29,668 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:14839646 -> source:4987028 (0.5767344833748819)
+11:31:29,668 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:14839646 -> source:14839646 (0.5705158818101536)
+11:31:29,668 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 4683870
+11:31:38,624 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 4683870*** self JSD: 0.501808647714159
+11:31:38,624 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:4683870 -> source:8102317 (0.44334105683832153)
+11:31:38,625 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:4683870 -> source:9000782 (0.41379928844169067)
+11:31:38,625 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:4683870 -> source:11796331 (0.4137992884416906)
+11:31:38,625 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 700766
+11:31:41,614 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 700766*** self JSD: 0.022020156720726877
+11:31:41,614 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:700766 -> source:17074615 (0.29589278503505395)
+11:31:41,614 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:700766 -> source:2148421 (0.2852103227741451)
+11:31:41,614 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:700766 -> source:700766 (0.022020156720726877)
+11:31:41,614 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 14376150
+11:31:48,860 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 14376150*** self JSD: 0.5752388094278796
+11:31:48,861 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:14376150 -> source:14487285 (0.5655133980715483)
+11:31:48,861 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:14376150 -> source:14073712 (0.5638757023338075)
+11:31:48,861 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:14376150 -> source:17238148 (0.5638757023338075)
+11:31:48,861 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 699389
+11:31:59,659 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 699389*** self JSD: 0.5360554848230338
+11:31:59,659 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:699389 -> source:6697806 (0.5521718804496177)
+11:31:59,659 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:699389 -> source:16098058 (0.5489079732943254)
+11:31:59,660 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:699389 -> source:699389 (0.5360554848230338)
+11:31:59,660 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 2102894
+11:32:15,326 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 2102894*** self JSD: 0.37072460548951364
+11:32:15,327 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:2102894 -> source:1214401 (0.5163557223309718)
+11:32:15,327 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:2102894 -> source:2512980 (0.5019003073662244)
+11:32:15,327 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:2102894 -> source:2102894 (0.37072460548951364)
+11:32:15,327 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 1750999
+11:32:41,951 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 1750999*** self JSD: 0.5607920767847133
+11:32:41,951 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:1750999 -> source:1568787 (0.598291100170151)
+11:32:41,951 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:1750999 -> source:4904233 (0.5969052251417253)
+11:32:41,951 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:1750999 -> source:1750999 (0.5607920767847133)
+11:32:41,951 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 5929427
+11:32:56,518 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 5929427*** self JSD: 0.4435276930610171
+11:32:56,518 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:5929427 -> source:12957646 (0.548135036502102)
+11:32:56,518 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:5929427 -> source:8726235 (0.4584265540168963)
+11:32:56,518 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:5929427 -> source:5929427 (0.4435276930610171)
+11:32:56,519 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 2722724
+11:33:08,514 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 2722724*** self JSD: 0.48264999563279076
+11:33:08,514 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:2722724 -> source:5419888 (0.47620699130485755)
+11:33:08,514 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:2722724 -> source:18761373 (0.47585859349556936)
+11:33:08,514 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:2722724 -> source:8045803 (0.4446159136952937)
+11:33:08,514 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 23219931
+11:33:25,905 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 23219931*** self JSD: -1.0
+11:33:25,906 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:23219931 -> source:2530951 (0.5039964825469613)
+11:33:25,906 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:23219931 -> source:1007644 (0.5035465519539819)
+11:33:25,906 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:23219931 -> source:1409141 (0.4864043686304024)
+11:33:25,906 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 1029470
+11:33:42,543 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 1029470*** self JSD: 0.28798748196495444
+11:33:42,543 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:1029470 -> source:18825094 (0.49028646159854117)
+11:33:42,543 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:1029470 -> source:13517935 (0.49028646159854117)
+11:33:42,543 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:1029470 -> source:1029470 (0.28798748196495444)
+11:33:42,543 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 2959305
+11:33:53,412 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 2959305*** self JSD: 0.32709019804634376
+11:33:53,412 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:2959305 -> source:15376204 (0.4421320612872851)
+11:33:53,412 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:2959305 -> source:7484116 (0.4175319184138109)
+11:33:53,412 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:2959305 -> source:2959305 (0.32709019804634376)
+11:33:53,412 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 3472343
+11:34:34,574 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 3472343*** self JSD: 0.4658458741845419
+11:34:34,574 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]* target:3472343 -> source:3472343 (0.4658458741845419)
+11:34:34,574 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:3472343 -> source:2830237 (0.45737541285649935)
+11:34:34,574 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:3472343 -> source:2530951 (0.43904581002512555)
+11:34:34,574 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 3121902
+11:35:03,572 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 3121902*** self JSD: 0.3702327387621786
+11:35:03,572 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:3121902 -> source:8819114 (0.5128113356845998)
+11:35:03,572 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:3121902 -> source:1164108 (0.504940605060303)
+11:35:03,572 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:3121902 -> source:3121902 (0.3702327387621786)
+11:35:03,572 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 1835420
+11:35:31,521 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 1835420*** self JSD: 0.4726910285409071
+11:35:31,522 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:1835420 -> source:3122673 (0.5306327237499155)
+11:35:31,522 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:1835420 -> source:917673 (0.5300165941698431)
+11:35:31,522 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:1835420 -> source:1835420 (0.4726910285409071)
+11:35:31,522 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 1611540
+11:35:43,777 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 1611540*** self JSD: 0.5390736838531639
+11:35:43,777 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:1611540 -> source:11113323 (0.5930341436871972)
+11:35:43,777 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:1611540 -> source:18673003 (0.5797242599566372)
+11:35:43,777 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:1611540 -> source:1611540 (0.5390736838531639)
+11:35:43,777 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 803195
+11:36:00,877 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 803195*** self JSD: 0.4754344190047482
+11:36:00,877 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:803195 -> source:17843545 (0.48361175109718135)
+11:36:00,878 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]* target:803195 -> source:803195 (0.4754344190047482)
+11:36:00,878 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:803195 -> source:16869928 (0.4652195128655208)
+11:36:00,878 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 1912851
+11:36:15,221 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 1912851*** self JSD: 0.30732372189862306
+11:36:15,221 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:1912851 -> source:14300713 (0.5281965503679992)
+11:36:15,221 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:1912851 -> source:8165944 (0.4819896346941471)
+11:36:15,221 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:1912851 -> source:1912851 (0.30732372189862306)
+11:36:15,221 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 327727
+11:36:24,244 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 327727*** self JSD: 0.3703898656704205
+11:36:24,244 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:327727 -> source:14524684 (0.54895574293534)
+11:36:24,244 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:327727 -> source:4448193 (0.5446623372346308)
+11:36:24,244 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:327727 -> source:327727 (0.3703898656704205)
+11:36:24,244 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 1524276
+11:36:47,972 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 1524276*** self JSD: 0.5213590540885826
+11:36:47,973 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:1524276 -> source:16792331 (0.5569387708368568)
+11:36:47,973 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:1524276 -> source:403200 (0.5517813701024271)
+11:36:47,973 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:1524276 -> source:1524276 (0.5213590540885826)
+11:36:47,973 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 16971356
+11:37:00,348 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 16971356*** self JSD: 0.5398117012112339
+11:37:00,348 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:16971356 -> source:7431605 (0.5394994855110773)
+11:37:00,348 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:16971356 -> source:8256567 (0.5390205877459315)
+11:37:00,348 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:16971356 -> source:18431422 (0.5312845961495488)
+11:37:00,349 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 1138128
+11:37:23,145 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 1138128*** self JSD: 0.31424670054990816
+11:37:23,145 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:1138128 -> source:5412426 (0.48749954729485756)
+11:37:23,145 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:1138128 -> source:18671846 (0.48749954729485756)
+11:37:23,145 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]* target:1138128 -> source:1138128 (0.31424670054990816)
+11:37:23,145 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Deanonimizing 5245399
+11:37:29,584 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  *** 5245399*** self JSD: 0.5596082472811986
+11:37:29,584 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [3]  target:5245399 -> source:10771138 (0.33293796205709714)
+11:37:29,584 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [2]  target:5245399 -> source:4628606 (0.32428914050234126)
+11:37:29,585 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  [1]  target:5245399 -> source:7319097 (0.2959452605998618)
+11:37:29,585 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Correct matches within first 1 entries: 134/266 = 0.5037593984962406
+11:37:29,585 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Correct matches within first 1 entries: 134/238 = 0.5630252100840336
+11:37:29,585 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Correct matches within first 2 entries: 145/266 = 0.5451127819548872
+11:37:29,585 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Correct matches within first 2 entries: 145/238 = 0.6092436974789915
+11:37:29,585 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Correct matches within first 3 entries: 151/266 = 0.5676691729323309
+11:37:29,585 INFO  [main                ] [               ] [s.app.DeanonimizeInMemory]  Correct matches within first 3 entries: 151/238 = 0.634453781512605
